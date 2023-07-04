@@ -1,7 +1,7 @@
 /* Preloader */
 
 .handle-preloader{
-	background-color:#ff4a17;
+	background-color:#38b6ff;
 }
 
 .handle-preloader {
@@ -82,6 +82,11 @@
 .handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(6):before { animation-delay: 1s;}
 .handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(7):before { animation-delay: 1.2s;}
 .handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(8):before { animation-delay: 1.4s;}
+.handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(9):before { animation-delay: 1.6s;}
+.handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(10):before { animation-delay: 1.8s;}
+.handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(11):before { animation-delay: 2.0s;}
+.handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(12):before { animation-delay: 2.2s;}
+.handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(13):before { animation-delay: 2.4s;}
 .handle-preloader .loader-section {
   background-color: #ffffff;
   height: 100%;

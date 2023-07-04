@@ -1907,7 +1907,7 @@ img{
 .sec-title .title{
 	position: relative;
     font-weight:700;
-	color:var(--main-color);
+	color:var(--color-eleven);
 	font-size:var(--font-20);
 	margin-bottom:var(--margin-bottom-20);
 }
