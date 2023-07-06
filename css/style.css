@@ -1514,7 +1514,7 @@
 	
 }
 
-.main-slider h1{
+.main-slider h1, .main-slider h4{
 	opacity: 0;
 	transform: scaleY(0);
 	transform-origin: top;
@@ -1527,7 +1527,7 @@
 	margin-bottom:var(--margin-bottom-30);
 }
 
-.main-slider .active h1{
+.main-slider .active h1, .main-slider .active h4{
 	opacity: 1;
 	transform: scaleY(1);
 	-webkit-transition-delay: 300ms;
@@ -1544,8 +1544,8 @@
 	-ms-transition-delay: 300ms;
 	-o-transition-delay: 300ms;
 	transition-delay: 300ms;
-	margin-bottom: 50px;
-	margin-top: -50px; 
+	margin-bottom: 0px;
+	margin-top: 0px; 
 }
 
 .main-slider .text{
@@ -7118,7 +7118,7 @@
 	right:0px;
 	bottom:0px;
 	opacity:0.78;
-	background-color:var(--color-fourty);
+	background-color:rgb(19 31 61);
 }
 
 .cta-section-two .inner-container{
@@ -7223,8 +7223,12 @@
 }
 
 .cta-section-two.style-two .play-box .play-button{
-	background-color:var(--main-color);
+	background-color:var(--color-eleven);
 }
+.cta-section-two.style-two .play-box .play-button:hover{
+	background-color: var(--main-color);
+}
+
 
 /*** 
 
@@ -7560,7 +7564,7 @@
 	right:0px;
 	bottom:0px;
 	opacity:0.85;
-	background-color:var(--color-fourty);
+	background-color:rgb(19 31 61);
 }
 
 .skill-section .video-column{
@@ -7581,7 +7585,7 @@
 	height:110px;
 	opacity:0.50;
 	border-radius:50%;
-	border:30px solid var(--color-fourtytwo);
+	border:30px solid var(--color-eleven);
 }
 
 /* Video Box */
@@ -7655,7 +7659,7 @@
 	font-size:var(--font-26);
 	color: var(--white-color);
 	padding-left:var(--padding-left-5);
-	background-color:var(--color-fourtytwo);
+	background-color:var(--color-eleven);
 }
 
 .video-box .overlay-box span:hover{
@@ -7757,7 +7761,7 @@
 	-o-transition:all 2000ms ease;
 	-moz-transition:all 2000ms ease;
 	transition:all 2000ms ease;
-	background-color:var(--color-fourtytwo);
+	background-color:var(--color-eleven);
 }
 
 .skills .skill-item .skill-bar .bar-inner .bar:before{
@@ -7768,7 +7772,7 @@
 	width:18px;
 	height:18px;
 	border-radius:50px;
-	background-color:var(--color-fourtytwo);
+	background-color:var(--main-color);
 }
 
 .skills .skill-item .skill-header{
@@ -7999,7 +8003,7 @@
 	opacity:0;
 	border-radius:50px;
 	display:inline-block;
-	border:1px solid var(--color-fourtytwo);
+	border:1px solid var(--color-eleven);
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
@@ -8009,7 +8013,7 @@
 
 .testimonial-section-three .owl-dots .owl-dot.active,
 .testimonial-section-three .owl-dots .owl-dot:hover{
-	background-color:var(--color-fourtytwo);
+	background-color:var(--color-eleven);
 }
 
 .testimonial-section-three .owl-dots .owl-dot.active::before,
@@ -8588,7 +8592,7 @@
 	right:0px;
 	bottom:0px;
 	opacity:0.70;
-	background: var(--color-fourty);
+	
 }
 
 .page-title h2{
@@ -8615,7 +8619,7 @@
 	position: absolute;
 	right: -5px;
 	top:0px;
-	color: #ffffff;
+	color: white;
     content: "\f101";
 	font-weight:400;
 	font-size: var(--font-16);
@@ -8874,8 +8878,8 @@
 }
 
 .service-block-four.style-two .inner-box .image-layer:before{
-	background: var(--color-fourtyfive);
-    background: linear-gradient(to right, var(--color-fourtyfive) 0%, var(--main-color) 100%);
+	background: var(--color-eleven);
+    background: linear-gradient(to right, var(--color-eleven) 0%, var(--main-color) 100%);
 }
 
 /*** 
