@@ -33,6 +33,10 @@
 	.main-slider{
 		padding:0px 0px;
 	}
+
+	.main-slider .text {
+		margin-left: 0px;
+	}
 	
 	.main-header .info-box{
 		margin-left:5px;

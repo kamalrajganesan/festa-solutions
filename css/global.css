@@ -882,6 +882,13 @@ h6{
 	font-size:var(--font-18);
 }
 
+.large-container {
+	position:static;
+	max-width:1450px;
+	padding:0px 15px;
+	margin:0 auto;
+}
+
 .auto-container{
 	position:static;
 	max-width:1200px;
