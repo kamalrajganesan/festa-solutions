@@ -11787,7 +11787,7 @@
 	top:0;
 }
 
-.auto-container h2{
+.auto-container.custom-head h2{
 	padding-top:60px;
 }
 
@@ -11904,9 +11904,11 @@
 .submit{
 	padding:0px !important;
 }
-.sec-title div{
+
+.sec-title.alternate div{
 	color:var(--color-eleven) !important;
 }
+
 .contact-form-section {
 	padding: 60px 0px 20px;
 }
@@ -11915,7 +11917,7 @@
 }
 
 
-.sec-title.alternate h2 {
+/* .sec-title.alternate h2 {
 	color:rgb(0, 60, 255);
     padding-bottom: var(--padding-zero);
 }
@@ -11953,7 +11955,7 @@ h2 {
 .sec-title.alternate .text{
 	color: #fdfbfb;
 
-}
+} */
 /* .sec-title.alternate h2{
 	color: #e8f1f7;
 

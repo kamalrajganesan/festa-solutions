@@ -669,7 +669,7 @@ body {
 	font-family: var(--font-family-Roboto);
 	font-size:14px;
 	color:var(--text-color);
-	line-height:1.6em;
+	/* line-height:1.6em; */
 	font-weight:400;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
