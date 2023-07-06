@@ -195,7 +195,7 @@
 	font-weight:400;
 	color:var(--color-five);
 	font-size:var(--font-15);
-	text-transform:capitalize;
+	/* text-transform:capitalize; */
 }
 
 .main-header .info-box strong{
@@ -6782,7 +6782,7 @@
 .welcome-section{
 	position:relative;
 	overflow:hidden;
-	padding:0px 0px 60px;
+	padding:60px 0px 60px;
 }
 
 .welcome-section .pattern-layer{
@@ -6927,8 +6927,8 @@
 }
 
 .welcome-section.style-two .image-column .color-layer{
-	background: var(--color-fourtyfive);
-    background: linear-gradient(to right, var(--color-fourtyfive) 0%, var(--main-color) 100%);
+	background: var(--color-eleven);
+    background: linear-gradient(to right, var(--color-eleven) 0%, var(--main-color) 100%);
 }
 
 /*** 
@@ -8645,18 +8645,18 @@
 }
 
 .page-title .bread-crumb, 
-.product-title .bread-crumb{
+.product-title .bread-crumb,.page-title .bread-crumb, .product-title .bread-crumb {
 	position: relative;
 	text-align: center;
 }
 
 .page-title .bread-crumb li,
-.product-title .bread-crumb li{
+.product-title .bread-crumb li,.page-title .bread-crumb, .product-title .bread-crumb {
 	text-align: center;
 	position: relative;
 }
 
-.page-title .bread-crumb li{
+.page-title .bread-crumb li,.page-title .bread-crumb, .product-title .bread-crumb {
 	text-align:center;
 	position: relative;
 	font-weight: 500;
@@ -8668,7 +8668,7 @@
 	padding-right: var(--padding-right-15);
 }
 
-.product-title .bread-crumb li{
+.product-title .bread-crumb li,.page-title .bread-crumb, .product-title .bread-crumb {
 	color: var(--black-color);
 }
 
@@ -8750,6 +8750,13 @@
 	margin-bottom:var(--margin-bottom-30);
 }
 
+.approach-block .inner-box.hover-effect:hover {
+	background-color:  rgb(149 187 192);
+	color: #fff;
+	}
+/* .approach-block .inner-box .lower-content .text.hover-effect:hover {
+		color:  #fff;
+		} */
 .approach-block .inner-box{
 
 	position:relative;
@@ -8787,10 +8794,11 @@
 .approach-block .inner-box .text{
 	position:relative;
 	line-height:1.7em;
-	color:var(--color-five);
+	color:var(--black-color);
 	margin-top:var(--margin-top-10);
 	margin-bottom:var(--margin-bottom-15);
 }
+
 
 .approach-block .inner-box .explore{
 	position:relative;
@@ -11762,12 +11770,12 @@
 
 .location-block .inner-box:hover {
 	.icon {
-		color: #fff !important
+		color:var(--color-eleven) !important
 	}
 }
 
 .inner-box:hover{
-	color:white;
+	/* color:white; */
 }
 
 .inner-box::before{
@@ -11778,7 +11786,7 @@
 	bottom:0;
 	left:0;
 	border-radius:10px;
-	background-color:rgb(231 244 255);
+	
 	
 	transition:0.3s ease;
 	z-index:-1;
