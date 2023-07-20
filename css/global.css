@@ -351,10 +351,11 @@
   --dark-border-color:rgb(37,55,63);
   
   /* Fonts Variable */
-  --font-family-Roboto: 'Roboto', sans-serif;
-  --font-family-Poppins: 'Poppins', sans-serif;
-  --font-family-BeVietnam: 'Be Vietnam Pro', sans-serif;
-  --font-family-Inter: 'Inter', sans-serif;
+  /* --font-family-Roboto: 'outfit', sans-serif; */
+  /* --font-family-Poppins: 'Urbanist', sans-serif ; */
+  --font-family-BeVietnam: 'urbanist', sans-serif;
+  --font-family-Inter:'outfit', sans-serif;
+  
   
 /* Heading Fonts */
   
@@ -666,7 +667,7 @@
 ***/
 
 body {
-	font-family: var(--font-family-Roboto);
+	/* font-family: var(--font-family-outfit); */
 	font-size:14px;
 	color:var(--text-color);
 	/* line-height:1.6em; */
