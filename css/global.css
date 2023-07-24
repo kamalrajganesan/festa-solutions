@@ -353,8 +353,11 @@
   /* Fonts Variable */
   /* --font-family-Roboto: 'outfit', sans-serif; */
   /* --font-family-Poppins: 'Urbanist', sans-serif ; */
-  --font-family-BeVietnam: 'urbanist', sans-serif;
-  --font-family-Inter:'outfit', sans-serif;
+
+   --font-family-BeVietnam:'Montserrat', sans-serif;
+    /*'urbanist', sans-serif; */
+  --font-family-Inter: 'Raleway', sans-serif;
+  /*'outfit', sans-serif;*/
   
   
 /* Heading Fonts */
@@ -703,7 +706,7 @@ h1,h2,h3,h4,h5,h6 {
 	margin:0px;
 	background:none;
 	color:var(--black-color);
-	font-family:var(--font-family-BeVietnam);
+	/* font-family:var(--font-family-BeVietnam); */
 }
 
 input,button,select,textarea{
