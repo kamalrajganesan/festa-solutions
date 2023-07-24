@@ -15,15 +15,31 @@
 @import url('jquery.mCustomScrollbar.min.css');
 @import url('fav-icon.css');
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:wght@500&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* font-family*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@200&family=Fasthand&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lumanosimo&family=Manrope:wght@400;700&family=Oswald:wght@200;300;400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Raleway&family=Rubik:ital,wght@1,200&family=Urbanist:wght@200;300;400;500;600;700;800;900&display=swap');
 
-/*** 
+/* .text ,.inner-box,.skill-item,.list li a,.copyright,.ffoter-nav li a,h6{
+	font-family: 'Urbanist', sans-serif !important;
+	font-size:1.2rem !important;
+}
+.inner-box strong{
+	font-family: 'Urbanist', sans-serif !important;
+}
+.navigation ul li a,.title,h2,h5 a,.text-one,h2,.author-image strong,.designation,.play-box,h5,.lower-text,.contact-list li{
+	font-family: 'Urbanist', sans-serif !important;
+}
 
-====================================================================
+***/ 
+.text,.inner-box,.title{
+	font-family: var(--font-family-Inter);
+}
+
+
+/* ====================================================================
 	Main Header style
 ====================================================================
 
-***/
+
 
 .main-header{
 	position:relative;
@@ -409,7 +425,7 @@
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
-	font-family: var(--font-family-Poppins);
+	font-family: var(--font-family-BeVietnam);
 }
 
 .main-header .main-menu .navigation > li.dropdown > a{
@@ -509,7 +525,7 @@
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
-	font-family: var(--font-family-Poppins);
+	font-family: var(--font-family-BeVietnam);
 }
 
 .main-header .sticky-header .main-menu .navigation > li > a{
@@ -624,7 +640,7 @@
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
-	font-family: var(--font-family-Poppins);
+	font-family: var(--font-family-BeVietnam);
 }
 
 .main-header .main-menu .navigation > li > ul > li > ul > li:hover > a{
@@ -908,7 +924,7 @@
 .header-style-three .main-menu .navigation > li > a{
 	font-weight:700;
 	font-size:var(--font-18);
-	font-family: var(--font-family-Roboto);
+	font-family: var(--font-family-BeVietnam);
 }
 
 .header-style-three .main-menu{
@@ -1927,7 +1943,7 @@
 	color:var(--white-color);
 	font-size:var(--font-24);
 	margin-top:var(--margin-top-10);
-	font-family: var(--font-family-Poppins);
+	font-family: var(--font-family-BeVietnam);
 }
 
 .main-slider-two .active .phone-box{
@@ -4092,7 +4108,7 @@
 	color:var(--white-color);
 	margin-top:var(--margin-top-30);
 	margin-bottom:var(--margin-bottom-40);
-	font-family: var(--font-family-Roboto);
+	font-family: var(--font-family-BeVietnam);
 }
 
 /*** 
@@ -4288,7 +4304,7 @@
 	color:var(--white-color);
 	text-transform:uppercase;
 	background-color:var(--main-color);
-	font-family:var(--font-family-BeVietnam);
+	font-family:var(--font-family-Inter);
 }
 
 .news-block .inner-box .overlay-box{
@@ -6735,7 +6751,7 @@
 	color:var(--color-thirtyone);
 	font-weight:700;
 	font-size:var(--font-48);
-	font-family: var(--font-family-Poppins);
+	font-family: var(--font-family-BeVietnam);
 }
 
 .counter-section .counter-column .counter-text{
@@ -9591,7 +9607,7 @@
 	-moz-transition:all 300ms ease;
 	transition:all 300ms ease;
 	border:1px solid rgba(0,0,0,0.10);
-	font-family: var(--font-family-Roboto);
+	font-family: var(--font-family-BeVietnam);
 	background-color:var(--color-fourtyeight);
 }
 
@@ -9621,7 +9637,7 @@
 	-moz-transition:all 300ms ease;
 	transition:all 300ms ease;
 	border:1px solid rgba(0,0,0,0.10);
-	font-family: var(--font-family-Roboto);
+	font-family: var(--font-family-BeVietnam);
 	background-color:var(--color-fourtyeight);
 }
 
@@ -10219,7 +10235,7 @@
 	color:var(--color-five);
 	font-size:var(--font-17);
 	margin-bottom:var(--margin-bottom-15);
-	font-family: var(--font-family-Roboto);
+	font-family: var(--font-family-BeVietnam);
 }
 
 .project-detail-section .upper-box .info-list li span{
@@ -11838,7 +11854,7 @@
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
 	transition:all 300ms ease;
-	font-family: var(--font-family-Roboto);
+	font-family: var(--font-family-BeVietnam);
 	background-color:var(--color-fourtyeight);
 }
 
@@ -11867,7 +11883,7 @@
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
 	transition:all 300ms ease;
-	font-family: var(--font-family-Roboto);
+	font-family: var(--font-family-BeVietnam);
 	background-color:var(--color-fourtyeight);
 }
 
