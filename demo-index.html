@@ -11,12 +11,18 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
 <link rel="stylesheet" href="css/hero-carousel-styles.css">
+<link rel="stylesheet" href="css/service.css">
+
 
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/service.js"></script>
 <link rel="shortcut icon" href="images/festa-solutions.ico" type="ico">
 <link rel="icon" href="images/festa-solutions.ico" type="ico">
 
@@ -274,7 +280,7 @@
 		  <input type="radio" id="banner1" class="sec-1-input" name="banner" checked>
 		  <input type="radio" id="banner2" class="sec-1-input" name="banner">
 		  <input type="radio" id="banner3" class="sec-1-input" name="banner">
-		  <input type="radio" id="banner4" class="sec-1-input" name="banner">
+		  <input type="radio" id="banner4" class="sec-1-input video-slide" name="banner" special-slide-1>
 		  <div class="slider">
 			<div id="top-banner-1" class="banner">
 			  <div class="banner-inner-wrapper">
@@ -285,28 +291,28 @@
 				  <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
 				</div>
 				<div class="banner-highlight-img">
-				  <img src="images/main-slider/image-1.jpg" alt="Product 1">
+				  <img src="images/HERO1-PROD.png" alt="Product 1">
 				</div>
 			  </div>
 			</div>
 			<div id="top-banner-2" class="banner">
 			  <div class="banner-inner-wrapper">
-				<div class="text-content">
+				<!-- <div class="text-content">
 				  <h2>What We Do</h2>
 				  <h1>Great<br>MoGo</h1>
 				  <div class="line"></div>
 				  <div class="learn-more-button"><a href="#section-4">Learn More</a></div>
-				</div>
-				<div class="banner-highlight-img">
+				</div> -->
+				<!-- <div class="banner-highlight-img">
 				  <img src="images/main-slider/image-2.jpg" alt="Product 1">
-				</div>
+				</div> -->
 			  </div>
 			</div>
 			<div id="top-banner-3" class="banner">
 			  <div class="banner-inner-wrapper">
 				<div class="text-content">
-				  <h2>Here We Are</h2>
-				  <h1>We Are<br>MoGo</h1>
+				  <h2 style="color:white">Here We Are</h2>
+				  <h1 style="color:white">We Are<br>MoGo</h1>
 				  <div class="line"></div>
 				  <div class="learn-more-button"><a href="#section-6">Learn More</a></div>
 				</div>
@@ -317,15 +323,21 @@
 			</div>
 			<div id="top-banner-4" class="banner">
 			  <div class="banner-inner-wrapper">
-				<div class="text-content">
+				<!-- <div class="text-content">
 				  <h2>Our Contacts</h2>
 				  <h1>Welcome<br>to MoGo</h1>
 				  <div class="line"></div>
 				  <div class="learn-more-button"><a href="#main-footer">Learn More</a></div>
 				</div>
 				<div class="banner-highlight-img">
-				  <img src="images/main-slider/image-4.jpg" alt="Product 1">
+				  <img src="images/form-img.jpg" alt="Product 1">
 				</div>
+			  </div> -->
+			  <div class="carousel-slide">
+				<video  autoplay id="main-banner-video" >
+				  <source src="images/demo-vide0.mp4" type="video/mp4" >
+				  Your browser does not support the video tag.
+				</video>
 			  </div>
 			</div>
 		  </div>
@@ -349,75 +361,9 @@
 	<section class="about-section">
 		<div class="auto-container">
 			<div class="row clearfix">
-			
-				<!-- Content Column -->
-				<div class="content-column col-lg-7 col-md-12 col-sm-12">
-					<div class="inner-column">
-						<div class="sec-title">
-							<div class="big-text">Assessments</div>
-							<div class="title">About our Company</div>
-							<h2>Why to go with Festa Solar</h2>
-							<div class="text">We possesses Strong O&M Capabilities <br> Festas Commitment towards with value creation throughout the projects Lifecycle <br> We also provide World class Professionals and Designers</div>
-						</div>
-						<div class="row clearfix">
-						
-							<!-- Feature Block -->
-							<div class="feature-block col-lg-6 col-md-6 col-sm-12">
-								<div class="inner-box">
-									<span class="icon flaticon-engineer"></span>
-									<h5>Strengthening society</h5>
-								</div>
-							</div>
-							
-							<!-- Feature Block -->
-							<div class="feature-block col-lg-6 col-md-6 col-sm-12">
-								<div class="inner-box">
-									<span class="icon flaticon-customer-support"></span>
-									<h5>Driving the economy</h5>
-								</div>
-							</div>
-							
-						</div>
-						<!-- Lower Box -->
-						<div class="lower-box clearfix">
-							<div class="button-box">
-								<a class="btn-style-one theme-btn" href="services.html"><span class="txt">About us <i class="arrow fa fa-angle-right"></i></span></a>
-							</div>
-							<div class="phone-box">
-								<div class="box-inner">
-									<span class="icon flaticon-telephone"></span>
-									Call us for help
-									<strong>12 452 1505</strong>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Image Column -->
-				<div class="image-column col-lg-5 col-md-12 col-sm-12">
-					<div class="inner-column">
-						<!-- Counter Box -->
-						<div class="counter-box">
-							<div class="row clearfix">
-								<!-- Counter Column -->
-								<div class="counter-column col-lg-6 col-md-6 col-sm-12">
-									<h2><span class="odometer" data-count="3010"></span>+</h2>
-									<div class="counter-text">Satisfied Clients</div>
-								</div>
-								<!-- Counter Column -->
-								<div class="counter-column col-lg-6 col-md-6 col-sm-12">
-									<h2><span class="odometer" data-count="528"></span>+</h2>
-									<div class="counter-text">Active Projects</div>
-								</div>
-							</div>
-						</div>
-						<div class="image">
-							<img src="images/resource/bgpt-2.jpg" alt="" />
-							<div class="circle-layer" style="background-image:url(images/resource/about-circle.png)"></div>
-							<span class="gear-icon-one flaticon-gear"></span>
-							<span class="gear-icon-two flaticon-gear"></span>
-						</div>
+				<div class="image-container-demo">
+					<div class="imagey">
+					<img src="images/image434.jpg" alt="Description of the image" >
 					</div>
 				</div>
 				
@@ -427,266 +373,84 @@
 	<!-- End About Section -->
 	
 	<!-- Service Section -->
-	<section class="service-section-two">
-		<div class="image-layer" style="background-image:url(images/background/1.jpg)"></div>
-		<div class="pattern-layer-one" style="background-image:url(images/background/pattern-1.png)"></div>
-		<div class="pattern-layer-two" style="background-image:url(images/background/pattern-2.png)"></div>
-		<div class="pattern-layer-three" style="background-image:url(images/background/pattern-3.png)"></div>
-		<div class="auto-container">
-			<div class="sec-title centered">
-				<div class="big-text">Services</div>
-				<div class="title">Our Awesome Services</div>
-				<h2>Building a more competitive <br> business sectors.</h2>
-			</div>
-			<div class="three-item-carousel owl-carousel owl-theme">
-			
-				<!-- Service Block Two -->
-				<div class="service-block-two">
-					<div class="inner-box">
-						<div class="image">
-							<img src="images/resource/ser-1.jpg" alt="" />
-							<div class="overlay-box">
-								<span class="icon"><i class="fa-solid fa-industry"></i></span>
-								<div class="content">
-									<h5>Engineering Solutions</h5>
-									<!-- <div class="title"></div> -->
-								</div>
-							</div>
-							<div class="overlay-box-two">
-								<span class="icon-two"><i class="fa-solid fa-industry"></i></span>
-								<div class="overlay-inner">
-									<div class="overlay-content">
-										<h5><a href="oil-gas.html">Engineering Solutions</a></h5>
-										<div class="text">Enhancing and adopting the new technologies and value addition Engineering</div>
-										<a href="oil-gas.html" class="read-more">Read more <span class="flaticon-next-3"></span></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Service Block Two -->
-				<div class="service-block-two style-two">
-					<div class="inner-box">
-						<div class="image">
-							<img src="images/resource/ser-2.jpg" alt="" />
-							<div class="overlay-box">
-								<!-- <span class="icon flaticon-factory"></span> -->
-							<span class="icon"><i class="fa-solid fa-book"></i></span>	
-								<div class="content">
-									<h5>Skill Dev. Training</h5>
-									<!-- <div class="title">Servic</div> -->
-								</div>
-							</div>
-							<div class="overlay-box-two">
-								<!-- <span class="icon-two flaticon-customer-support"></span> -->
-							<span class="icon-two">	<i class="fa-solid fa-book"></i></i> </span>
-								<div class="overlay-inner">
-									<div class="overlay-content">
-										<h5><a href="oil-gas.html">Skill Development Training</a></h5>
-										<div class="text">Suryamitra Training for Industry Ready Technicians & Engineers in Solar Industry</div>
-										<a href="oil-gas.html" class="read-more">Read more <span class="flaticon-next-3"></span></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Service Block Two -->
-				<div class="service-block-two style-three">
-					<div class="inner-box">
-						<div class="image">
-							<img src="images/resource/Ser-3.jpg" alt="" />
-							<div class="overlay-box">
-								<span class="icon"><i class="fa-solid fa-boxes-packing"></i></span>
-								<div class="content">
-									<h5>Product Distribution</h5>
-									<!-- <div class="title">Services</div> -->
-								</div>
-							</div>
-							<div class="overlay-box-two">
-								<span class="icon-two"><i class="fa-solid fa-boxes-packing"></i></span>
-								<div class="overlay-inner">
-									<div class="overlay-content">
-										<h5><a href="oil-gas.html">Product Distribution</a></h5>
-										<div class="text">Distributions of Adani Solar Modules, Solar Invertors, BOS Kits</div>
-										<a href="oil-gas.html" class="read-more">Read more <span class="flaticon-next-3"></span></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Service Block Two -->
-				<div class="service-block-two">
-					<div class="inner-box">
-						<div class="image">
-							<img src="images/resource/Ser-4.jpg" alt="" />
-							<div class="overlay-box">
-								<span class="icon "><i class="fa-solid fa-gears"></i></span>
-								<div class="content">
-									<h5>EPC Projects Services</h5>
-									<!-- <div class="title">Services</div> -->
-								</div>
-							</div>
-							<div class="overlay-box-two">
-								<span class="icon-two"> <i class="fa-solid fa-gears"></i></span>
-								<div class="overlay-inner">
-									<div class="overlay-content">
-										<h5><a href="oil-gas.html">EPC Projects Services</a></h5>
-										<div class="text">Solar EPC Projects [above 500 kW Ground Mount/Rooftop/<br>Floating/carport] player</div>
-										<a href="oil-gas.html" class="read-more">Read more <span class="flaticon-next-3"></span></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Service Block Two -->
-				<div class="service-block-two style-two">
-					<div class="inner-box">
-						<div class="image">
-							<img src="images/resource/ser-5.jpg" alt="" />
-							<div class="overlay-box">
-								<span class="icon"><i class="fa-solid fa-triangle-exclamation"></i></span>
-								<div class="content">
-									<h5>Operations & Maintainance</h5>
-									<!-- <div class="title">Services</div> -->
-								</div>
-							</div>
-							<div class="overlay-box-two">
-								<span class="icon-two"><i class="fa-solid fa-triangle-exclamation"></i></span>
-								<div class="overlay-inner">
-									<div class="overlay-content">
-										<h5><a href="oil-gas.html">Operations & Maintenance</a></h5>
-										<div class="text">Operations and Maintenance for solar power plants</div>
-										<a href="oil-gas.html" class="read-more">Read more <span class="flaticon-next-3"></span></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-							
-			</div>
-		</div>
-	</section>
+	
+
+<!------ Include the above in your HEAD tag ---------->
+<section class="iq-features">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-3 col-md-12"></div>
+<div class="col-lg-6 col-md-12">
+ <div class="holderCircle">
+<div class="round"></div>
+<div class="dotCircle">
+<span class="itemDot active itemDot1" data-tab="1">
+ <i class="fa fa-clock-o"></i>
+ <span class="forActive"></span>
+</span>
+<span class="itemDot itemDot2" data-tab="2">
+<i class="fa fa-comments"></i>
+<span class="forActive"></span>
+</span>
+<span class="itemDot itemDot3" data-tab="3">
+<i class="fa fa-user"></i>
+<span class="forActive"></span>
+</span>
+<span class="itemDot itemDot4" data-tab="4">
+<i class="fa fa-tags"></i>
+<span class="forActive"></span>
+</span>
+<span class="itemDot itemDot5" data-tab="5">
+ <i class="fa fa-upload"></i>
+<span class="forActive"></span>
+</span>
+<span class="itemDot itemDot6" data-tab="6">
+<i class="fa fa-briefcase"></i>
+<span class="forActive"></span>
+</span>
+</div>
+<div class="contentCircle">
+<div class="CirItem title-box active CirItem1">
+<h2 class="title"><span>Automate</span></h2>
+<p>tfhdfghfghfghfgjtyjtyhfg ftgfthtyjyutg rthtryjdrhrt tyjdrytyjuty tjtyjtyjtdy</p>
+<i class="fa fa-clock-o"></i>
+</div>
+<div class="CirItem title-box CirItem2">
+<h2 class="title"><span>Chat </span></h2>
+<p>tfhdfghfghfghfgjtyjtyhfg ftgfthtyjyutg rthtryjdrhrt tyjdrytyjuty tjtyjtyjtdy</p>
+<i class="fa fa-comments"></i>
+</div>
+<div class="CirItem title-box CirItem3">
+<h2 class="title"><span>Responses</span></h2>
+<p>tfhdfghfghfghfgjtyjtyhfg ftgfthtyjyutg rthtryjdrhrt tyjdrytyjuty tjtyjtyjtdy</p>
+<i class="fa fa-user"></i>
+</div>
+<div class="CirItem title-box CirItem4">
+<h2 class="title"><span>Tags</span></h2>
+<p>tfhdfghfghfghfgjtyjtyhfg ftgfthtyjyutg rthtryjdrhrt tyjdrytyjuty tjtyjtyjtdy</p>
+<i class="fa fa-tags"></i>
+</div>
+<div class="CirItem title-box CirItem5">
+<h2 class="title"><span>Sharing</span></h2>
+<p>tfhdfghfghfghfgjtyjtyhfg ftgfthtyjyutg rthtryjdrhrt tyjdrytyjuty tjtyjtyjtdy</p>
+<i class="fa fa-upload"></i>
+</div>
+<div class="CirItem title-box CirItem6">
+<h2 class="title"><span>Support</span></h2>
+<p>tfhdfghfghfghfgjtyjtyhfg ftgfthtyjyutg rthtryjdrhrt tyjdrytyjuty tjtyjtyjtdy</p>
+<i class="fa fa-briefcase"></i>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-md-12"></div>
+               </div>
+            </div>
+        </section>
 	<!-- End Service Section -->
 	
 	<!-- Project Section -->
-	<section class="project-section">
-		<div class="auto-container">
-			
-			<!--Product Tabs-->
-			<div class="prod-tabs tabs-box">
-				<div class="gear-pattern-layer" style="background-image:url(images/background/pattern-4.png)"></div>
-				<!-- Tab Btns , here second background style has been removed -->
-				<div class="btns-outer">
-					<div class="btns-pattern-layer"></div>
-					<div class="title-box">
-						<h2>Our Portfolio</h2>
-					</div>
-					<ul class="tab-btns tab-buttons clearfix">
-						<li data-tab="#prod-building" class="tab-btn active-btn">Solar PV System </li>
-						<li data-tab="#prod-industrial" class="tab-btn">Machining</li>
-						<li data-tab="#prod-architecture" class="tab-btn">Assembling</li>
-						<li data-tab="#prod-construction" class="tab-btn">HPDC/GDC</li>
-						<li data-tab="#prod-interior" class="tab-btn">Heat Treatment</li>
-						<li data-tab="#prod-engineer" class="tab-btn">Cold Forging</li>
-					</ul>
-				</div>
-				
-				<!--Tabs Container-->
-				<div class="tabs-content">
-					
-					<!-- Tab / Active Tab -->
-					<div class="tab active-tab" id="prod-building">
-						<div class="image">
-							<img src="images/gallery/solar.jpg" alt="" />
-							<div class="content">
-								<div class="pattern-layer" style="background-image:url(images/background/patt3.jpg)"></div>
-								<h5><a href="project-detail.html">City of Calgary LRT Station Refurbishments</a></h5>
-								<div class="category">ALBERTA</div>
-								<a class="arrow flaticon-right-arrow" href="project-detail.html"></a>
-							</div>
-						</div>
-					</div>
-					
-					<!-- Tab  -->
-					<div class="tab" id="prod-industrial">
-						<div class="image">
-							<img src="images/gallery/port-3.jpg" alt="" />
-							<div class="content">
-								<div class="pattern-layer" style="background-image:url(images/background/patt3.jpg)"></div>
-								<h5><a href="project-detail.html">City of Calgary LRT Station Refurbishments</a></h5>
-								<div class="category">ALBERTA</div>
-								<a class="arrow flaticon-right-arrow" href="project-detail.html"></a>
-							</div>
-						</div>
-					</div>
-					
-					<!-- Tab  -->
-					<div class="tab" id="prod-architecture">
-						<div class="image">
-							<img src="images/gallery/port-4.jpg" alt="" />
-							<div class="content">
-								<div class="pattern-layer" style="background-image:url(images/background/patt3.jpg)"></div>
-								<h5><a href="project-detail.html">City of Calgary LRT Station Refurbishments</a></h5>
-								<div class="category">ALBERTA</div>
-								<a class="arrow flaticon-right-arrow" href="project-detail.html"></a>
-							</div>
-						</div>
-					</div>
-					
-					<!-- Tab  -->
-					<div class="tab" id="prod-construction">
-						<div class="image">
-							<img src="images/gallery/port-5.jpg" alt="" />
-							<div class="content">
-								<div class="pattern-layer" style="background-image:url(images/background/patt3.jpg
-								)"></div>
-								<h5><a href="project-detail.html">City of Calgary LRT Station Refurbishments</a></h5>
-								<div class="category">ALBERTA</div>
-								<a class="arrow flaticon-right-arrow" href="project-detail.html"></a>
-							</div>
-						</div>
-					</div>
-					
-					<!-- Tab  -->
-					<div class="tab" id="prod-interior">
-						<div class="image">
-							<img src="images/gallery/port-6.jpg" alt="" />
-							<div class="content">
-								<div class="pattern-layer" style="background-image:url(images/background/patt3.jpg)"></div>
-								<h5><a href="project-detail.html">City of Calgary LRT Station Refurbishments</a></h5>
-								<div class="category">ALBERTA</div>
-								<a class="arrow flaticon-right-arrow" href="project-detail.html"></a>
-							</div>
-						</div>
-					</div>
-					
-					<!-- Tab  -->
-					<div class="tab" id="prod-engineer">
-						<div class="image">
-							<img src="images/gallery/port-7.jpg" alt="" />
-							<div class="content">
-								<div class="pattern-layer" style="background-image:url(images/background/patt3.jpg)"></div>
-								<h5><a href="project-detail.html">City of Calgary LRT Station Refurbishments</a></h5>
-								<div class="category">ALBERTA</div>
-								<a class="arrow flaticon-right-arrow" href="project-detail.html"></a>
-							</div>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-			
-		</div>
-	</section>
+	
 	<!-- End Project Section -->
 	
 	<!-- Products Section -->

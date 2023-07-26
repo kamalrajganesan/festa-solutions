@@ -51,7 +51,15 @@
   /* padding: 30px; */
 }
 #section-1 .content-slider .slider .banner .banner-inner-wrapper .banner-highlight-img img{
-  width: 100%;
+  width: 70%;
+  /* padding:30px; */
+}
+
+/* Media query for mobile screens */
+@media (max-width: 767px) {
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper .banner-highlight-img img {
+    width: 100%; /* Width for mobile screens */
+ }
 }
 #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {
   padding-bottom: 0.3em;
@@ -63,7 +71,11 @@
 #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {
   font-size: 6em;
   line-height: 95%;
+  color: black;
 }
+/* #section-1 .content-slider .slider .banner .banner-inner-wrapper3.h1{
+  color:w
+} */
 #section-1 .content-slider .slider .banner .banner-inner-wrapper .line {
   display: block;
   width: 4em;
@@ -90,15 +102,16 @@
   transition: 0.3s;
 }
 #section-1 .content-slider .slider #top-banner-1 {
-  background: url('../images/sample1.jpg') no-repeat center center;
+  background: url('../images/BACKGRPOUP.jpg') no-repeat center center;
   background-size: cover;
+  
 }
 #section-1 .content-slider .slider #top-banner-2 {
-  background: url('../images/sample2.jpg') no-repeat center center;
+  background: url('../images/image23.jpg') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-3 {
-  background: url('../images/sample3.jpg') no-repeat center center;
+  background: url('../images/sunset-fuels-solar-panel-generator-powers-city-future-generated-by-ai.jpg  ') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-4 {

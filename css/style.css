@@ -11960,3 +11960,37 @@ h2 {
 	color: #e8f1f7;
 
 } */
+.image-container-demo {
+	
+	margin-left: 60px;
+	margin-right:60px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	z-index: 5;
+	
+	img {
+		max-width: 100%; /* Ensures the image doesn't exceed its container */
+	}
+
+	/* Media query for screens up to 600 pixels wide */
+	@media (max-width: 600px) {
+		img {
+			width: 300px;
+			margin-right: 50px;
+		}
+	}
+
+	/* Media query for screens larger than 600 pixels wide */
+	@media (min-width: 601px) {
+		img {
+			width: 500px;
+		}
+	}
+	.image-container-demo.imagey{
+		margin-top: -70px;
+		
+		
+	}
+	
+	
+}
