@@ -2505,8 +2505,10 @@
 
 .about-section{
 	position:relative;
-	overflow:hidden;
+	/* overflow:hidden; */
 	padding:130px 0px 100px;
+	margin-bottom: 7px;
+	z-index: 4;
 }
 
 .about-section .content-column{
@@ -11964,9 +11966,9 @@ h2 {
 	
 	margin-left: 60px;
 	margin-right:60px;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	z-index: 5;
+	margin-bottom: -10px;
+	margin-top: -190px;
+	
 	
 	img {
 		max-width: 100%; /* Ensures the image doesn't exceed its container */
@@ -11993,4 +11995,62 @@ h2 {
 	}
 	
 	
+		
+		.home-hero-section-demodude{
+			min-height: 30rem;
+			background-color: #293861;
+			position: relative;
+		}
+		.home-hero-section-demodude .logo img{
+			height: 4rem;
+		}
+			
+		
+		.home-body-demodude{
+			text-align: center;
+		}
+		
+		.home-body-demodude .home-title{
+			font-size: 2.4rem;
+			color:#fff;				
+		}	
+		
+		.home-hero-section-demodude .home-footer-demodude{
+			border-radius: 3rem;	
+			display: flex;			
+			position: absolute;
+			bottom: -18rem;
+			width: 100%;
+		}
+		.home-hero-section-demodude .home-footer-demodude .home-product-demodude{
+			
+			background-color: #f5f5f5;		
+			justify-content: center;
+			margin: auto 20rem;
+    		width: 100%;
+			padding: 0rem 0rem;
+			display: flex;
+		}	
+		.home-hero-section-demodude .home-footer-demodude .home-product-demodude img{
+		width:100%;
+		}
+      		
+		@media(max-width:800px){
+			.home-hero-section-demodude .home-footer-demodude .home-product-demodude{
+				margin: auto 1rem;
+				flex-wrap: wrap;
+				height: auto;
+				border-radius: none;
+			}				
+		}
+		
+}
+.about-section .pattern-layer-demo{
+	position:absolute;
+	 top:10%;
+	 left:1%;
+	 width:500px;
+	 height:500px;
+	 background-repeat: no-repeat;
+	 z-index: -1;
 }
