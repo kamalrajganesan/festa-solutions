@@ -5093,7 +5093,7 @@
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
-	background-color:var(--color-twentyseven);
+	background-color:var(--color-thirteen);
 	box-shadow:0px 0px 15px rgba(var(--color-twentyseven-rgb), 0.5)
 }
 
@@ -5113,7 +5113,7 @@
 }
 
 .feature-block-two:nth-child(2) .inner-box .icon{
-	background-color:var(--color-twentyeight);
+	background-color:var(--color-thirteen);
 	box-shadow:0px 0px 15px rgba(var(--color-twentyeight-rgb), 0.5)
 }
 

@@ -1,6 +1,3 @@
-.iq-features {
-  background-color: aqua;
-}
 
 .holderCircle {
   width: 500px;
@@ -33,8 +30,8 @@
   color: rgba(6, 97, 176, 1);
   border-radius: 20px;
   text-align: center;
-  /*line-height: 80px;*/
-  /* font-size: 30px; */
+  line-height: 80px;
+  font-size: 30px;
   z-index: 3;
   cursor: pointer;
   border: 2px solid #e6e6e6;
@@ -212,19 +209,18 @@
 @media only screen and (min-width:1200px) and (max-width:1499px) {}
 
 .title-box .title {
-  /* font-weight: 600; */
-  letter-spacing: 2px;
+  font-weight: 600;
   position: relative;
   z-index: -1;
 }
 
 .title-box span {
   text-shadow: 0 10px 10px rgba(0, 0, 0, .15);
-  /* font-weight: 800; */
-  color: #640178;
+  font-weight: 800;
+  color: #0661b0;
 }
 
 .title-box p {
-  /* font-size: 17px; */
-  /* line-height: 2em; */
+  font-size: 17px;
+  line-height: 2em;
 }

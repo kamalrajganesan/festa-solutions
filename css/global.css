@@ -1308,7 +1308,7 @@ img{
 	font-size: var(--font-16);
 	text-transform: capitalize;
 	display:inline-block;
-	background-color:var(--color-twentyeight);
+	background-color:var(--color-thirteen);
 	font-family:var(--font-family-BeVietnam);
 }
 
@@ -1373,7 +1373,7 @@ img{
 }
 
 .btn-style-four:hover .btn-wrap .text-two{
-	color:var(--color-twentyeight);
+	color:var(--color-thirteen);
 }
 
 .btn-style-four:hover{
@@ -1402,7 +1402,7 @@ img{
 
 .btn-style-four:hover .plus{
 	color:var(--white-color);
-	background-color:var(--color-twentyeight);
+	background-color:var(--color-thirteen);
 }
 
 .btn-style-four:hover:before{
