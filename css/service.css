@@ -1,5 +1,6 @@
 .iq-features{
   background-color: aqua;
+  /* background-image:url("images/"); */
 }
 .holderCircle { width: 500px; height: 500px; border-radius: 100%; margin: 60px auto; position: relative; }
 
