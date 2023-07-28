@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 
 /* Section-1 Styles */
+.carousel-slide{
+  width: 200%;
+  margin-left: 105px;
+  margin-top: -120px;
+}
 #section-1 {
   height: 38em;
   color: #fff;
@@ -248,7 +253,8 @@
     height: 43em;
   }
   #section-1 .content-slider .slider .banner .banner-inner-wrapper {
-    padding-top: 11em;
+    padding-top: 6em;
+    padding-left:6em;
   }
 }
 @media only screen and (max-width: 1680px) {
@@ -269,7 +275,7 @@
     padding-top: 3em;
   }
   .carousel-slide{
-    margin-bottom: -60px;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 1366px) {
@@ -391,6 +397,21 @@
   #section-1 .content-slider .slider .banner .banner-inner-wrapper .line {
     margin: 1.7em auto;
   }
+  .carousel-slide{
+    width: 50%;
+    margin-left: -5px;
+    margin-top: -120px;
+  }
+}
+@media only screen and (max-width: 320px){
+  .carousel-slide{
+    width: 200%;
+    margin-left: -105px;
+    margin-top: -120px;
+  }
+  .image-container-demo{
+    margin-top: -100px;
+  }
 }
 @keyframes slideInFromLeft {
   0% {
@@ -408,3 +429,4 @@
     transform: translateX(0);
   }
 }
+

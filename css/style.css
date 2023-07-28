@@ -2502,6 +2502,9 @@
 ====================================================================
 
 ***/
+.about-section .pattern-layer-demo img{
+	width:100%;
+}
 
 .about-section{
 	position:relative;
@@ -12047,10 +12050,29 @@ h2 {
 }
 .about-section .pattern-layer-demo{
 	position:absolute;
-	 top:10%;
-	 left:1%;
+	 top:40%;
+	 left:2%;
 	 width:500px;
 	 height:500px;
 	 background-repeat: no-repeat;
 	 z-index: -1;
+}
+
+.about-section .pattern-layer-two-demo{
+	position:absolute;
+	 right:0%;
+	 top:39%;
+	 width:250px;
+	 height:500px;
+	 background-repeat: no-repeat;
+	 overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+	 z-index: -1;
+}
+.pattern-layer-two-demo img{
+	width:100%;
+}
+.pattern-layer-three-demo{
+	background-image:url(images/background/SolarBackGround.png)
+	
 }
