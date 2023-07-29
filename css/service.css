@@ -27,7 +27,7 @@
   height: 80px;
   position: absolute;
   background: #ffffff;
-  color: rgba(6, 97, 176, 1);
+  color: rgba(81, 199, 81, 0.74);
   border-radius: 20px;
   text-align: center;
   line-height: 80px;
@@ -94,11 +94,11 @@
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d4ac7+0,a733bb+100 */
   background: rgba(9, 97, 176, 1);
   /* Old browsers */
-  background: -moz-linear-gradient(left, rgba(6, 97, 176, 1) 0%, rgba(6, 97, 176, 1) 100%);
+  background: -moz-linear-gradient(left, rgba(6, 97, 176, 1) 0%, rgba(81, 199, 81, 0.74) 100%);
   /* FF3.6-15 */
   background: -webkit-linear-gradient(left, rgba(9, 97, 176, 1) 0%, rgba(9, 97, 176, 1) 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, rgba(9, 97, 176, 1) 0%, rgba(9, 97, 176, 1) 100%);
+  background: linear-gradient(to right, rgba(9, 97, 176, 1) 0%, rgba(81, 199, 81, 0.74)  100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7d4ac7', endColorstr='#a733bb', GradientType=1);
   /* IE6-9 */
