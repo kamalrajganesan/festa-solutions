@@ -330,7 +330,7 @@
         dots: true,
 		autoplay: true,
 		loop:true,
-		autoplaySpeed: 5000,
+		autoplaySpeed: 6000,
         infinite: true,
 		responsive: true,
         slidesToShow: 1,

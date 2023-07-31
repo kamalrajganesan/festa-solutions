@@ -2,9 +2,12 @@
 
 /* Section-1 Styles */
 .carousel-slide{
-  width: 200%;
-  margin-left: 105px;
-  margin-top: -120px;
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+.carousel-slide video {
+  width: -webkit-fill-available;
 }
 #section-1 {
   height: 38em;
@@ -66,7 +69,14 @@
     width: 100%; /* Width for mobile screens */
  }
 }
-#section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {
+#section-1 .content-slider .slider .banner .banner-inner-wrapper h2.kaushan-script {
+  padding-bottom: 0.3em;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 400;
+  font-size: 2.5em;
+  text-transform: none;
+}
+h2.kaushan-script {
   padding-bottom: 0.3em;
   font-family: 'Kaushan Script', cursive;
   font-weight: 400;
@@ -74,7 +84,7 @@
   text-transform: none;
 }
 #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {
-  font-size: 6em;
+  font-size: 5em;
   line-height: 95%;
   color: black;
 }
@@ -86,9 +96,22 @@
   width: 4em;
   height: 0.1875em;
   margin: 2.5em 0px;
+  /* background: #fff; */
+  background: #000;
+}
+.d-flex .line {
+  display: block;
+  width: 4em;
+  height: 0.1875em;
+  margin: 2.5em 0px;
+  /* background: #fff; */
   background: #fff;
 }
 #section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button {
+  padding-bottom: 5em;
+  z-index: 15 !important;
+}
+.d-flex .learn-more-button {
   padding-bottom: 5em;
   z-index: 15 !important;
 }
@@ -97,13 +120,31 @@
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-size: 0.875em;
+  /* color: #fff; */
+  color: #000;
+  text-transform: uppercase;
+  /* border: 0.1875em solid #fff; */
+  border: 0.1875em solid #000;
+}
+.d-flex .learn-more-button a {
+  padding: 0.5em 2em;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.875em;
+  /* color: #fff; */
   color: #fff;
   text-transform: uppercase;
+  /* border: 0.1875em solid #fff; */
   border: 0.1875em solid #fff;
 }
 #section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button a:hover {
   color: #e88382;
   border-color: #e88382;
+  transition: 0.3s;
+}
+.d-flex .learn-more-button a:hover {
+  color: #000;
+  border-color: #000;
   transition: 0.3s;
 }
 #section-1 .content-slider .slider #top-banner-1 {

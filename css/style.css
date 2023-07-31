@@ -4444,7 +4444,7 @@
 
 .news-block .inner-box .overlay-box-two h5 a{
 	position:relative;
-	color:var(--white-color);
+	color:var(--black-color);
 	-webkit-transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
@@ -4459,7 +4459,7 @@
 .news-block .inner-box .overlay-box-two .text{
 	line-height:30px;
 	max-width:280px;
-	color:var(--white-color);
+	color:var(--black-color);
 	margin-top:var(--margin-top-15);
 	margin-bottom:var(--margin-bottom-20);
 }
@@ -11921,134 +11921,67 @@
 .sec-title.alternate h2{
 	padding:5px !important;
 }
-
-
-/* .sec-title.alternate h2 {
-	color:rgb(0, 60, 255);
-    padding-bottom: var(--padding-zero);
+.full-sized-img {
+	opacity: 0;
+	transform: translateY(20vh);
+	visibility: hidden;
+	transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+	will-change: opacity, visibility;
 }
- 
-.sec-title .title {
-    position: relative;
-    font-weight: 700;
-    color:rgb(37 37 120)	;
-    font-size: var(--font-20);
-    margin-bottom: var(--margin-bottom-20);
+.fade-in-section.is-visible {
+	opacity: 1;
+	transform: none;
+	visibility: visible;
 }
-.text, p {
-    position: relative;
-    line-height: 28px;
-    font-size: var(--font-16);
-    color: rgb(59, 39, 139);
+		
+.home-hero-section-demodude{
+	min-height: 30rem;
+	background-color: #293861;
+	position: relative;
 }
-.sec-title-three .title {
-    position: relative;
-    display: block;
-    font-weight: 600;
-    font-size: var(--font-20);
-    color: rgb(39 0 255);
-    margin-bottom: var(--margin-bottom-20);
+.home-hero-section-demodude .logo img{
+	height: 4rem;
 }
-h2 {
-    line-height: 44px;
-    font-weight: 700;
-    font-size: var(--font-45);
-	color: #005df7;
-}
-.approach-section .auto-container .sec-title .title {
-	color:#ffffff
-}
-.sec-title.alternate .text{
-	color: #fdfbfb;
-
-} */
-/* .sec-title.alternate h2{
-	color: #e8f1f7;
-
-} */
-.image-container-demo {
 	
-	margin-left: 60px;
-	margin-right:60px;
-	margin-bottom: -10px;
-	margin-top: -190px;
-	
-	
-	img {
-		max-width: 100%; /* Ensures the image doesn't exceed its container */
-	}
 
-	/* Media query for screens up to 600 pixels wide */
-	@media (max-width: 600px) {
-		img {
-			width: 300px;
-			margin-right: 50px;
-		}
-	}
-
-	/* Media query for screens larger than 600 pixels wide */
-	@media (min-width: 601px) {
-		img {
-			width: 500px;
-		}
-	}
-	.image-container-demo.imagey{
-		margin-top: -70px;
-		
-		
-	}
-	
-	
-		
-		.home-hero-section-demodude{
-			min-height: 30rem;
-			background-color: #293861;
-			position: relative;
-		}
-		.home-hero-section-demodude .logo img{
-			height: 4rem;
-		}
-			
-		
-		.home-body-demodude{
-			text-align: center;
-		}
-		
-		.home-body-demodude .home-title{
-			font-size: 2.4rem;
-			color:#fff;				
-		}	
-		
-		.home-hero-section-demodude .home-footer-demodude{
-			border-radius: 3rem;	
-			display: flex;			
-			position: absolute;
-			bottom: -18rem;
-			width: 100%;
-		}
-		.home-hero-section-demodude .home-footer-demodude .home-product-demodude{
-			
-			background-color: #f5f5f5;		
-			justify-content: center;
-			margin: auto 20rem;
-    		width: 100%;
-			padding: 0rem 0rem;
-			display: flex;
-		}	
-		.home-hero-section-demodude .home-footer-demodude .home-product-demodude img{
-		width:100%;
-		}
-      		
-		@media(max-width:800px){
-			.home-hero-section-demodude .home-footer-demodude .home-product-demodude{
-				margin: auto 1rem;
-				flex-wrap: wrap;
-				height: auto;
-				border-radius: none;
-			}				
-		}
-		
+.home-body-demodude{
+	text-align: center;
 }
+
+.home-body-demodude .home-title{
+	font-size: 2.4rem;
+	color:#fff;				
+}	
+
+.home-hero-section-demodude .home-footer-demodude{
+	border-radius: 3rem;	
+	display: flex;			
+	position: absolute;
+	bottom: -18rem;
+	width: 100%;
+}
+.home-hero-section-demodude .home-footer-demodude .home-product-demodude{
+	
+	background-color: #f5f5f5;		
+	justify-content: center;
+	margin: auto 20rem;
+	width: 100%;
+	padding: 0rem 0rem;
+	display: flex;
+}	
+.home-hero-section-demodude .home-footer-demodude .home-product-demodude img{
+width:100%;
+}
+	
+@media(max-width:800px){
+	.home-hero-section-demodude .home-footer-demodude .home-product-demodude{
+		margin: auto 1rem;
+		flex-wrap: wrap;
+		height: auto;
+		border-radius: none;
+	}				
+}
+	
 .about-section .pattern-layer-demo{
 	position:absolute;
 	 top:40%;

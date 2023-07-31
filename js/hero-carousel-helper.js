@@ -1,5 +1,6 @@
 //  Section-1 CSS-Slider
-document.getElementById("main-banner-video").pause() ;
+videoElement = document.getElementById("main-banner-video") ;
+videoElement.pause();
 
 // Auto Switching Images for CSS-Slider
 function bannerSwitcher() {
@@ -14,12 +15,10 @@ function bannerSwitcher() {
 
     // Switch to the next slide
     const next = currentSlide.next('.sec-1-input');
-    console.log("Next.length :", next.length)
-    console.log("Next.hasClass :", next.hasClass)
     if (next.length) {
         if (next.hasClass('video-slide')) {
-            document.getElementById("main-banner-video").load() ;
-            document.getElementById("main-banner-video").play() ;
+            // document.getElementById("main-banner-video").load() ;
+            videoElement.play() ;
             intervalTime = 25000;
         }
         else intervalTime = 2500
@@ -31,7 +30,6 @@ function bannerSwitcher() {
 
     // Restart the timer with the updated interval time
     clearInterval(bannerTimer);
-    console.log("Interval: ", intervalTime);
     bannerTimer = setInterval(bannerSwitcher, intervalTime);
 }
 
@@ -39,6 +37,12 @@ var bannerTimer = setInterval(bannerSwitcher, 5000);
 
 $('nav .controls label').click(function () {
     clearInterval(bannerTimer);
+    let ele = $(this).attr('for');
+    if(ele == 'banner4') { 
+      if(videoElement.paused) {
+        videoElement.play();
+      }
+    }
+    
     bannerTimer = setInterval(bannerSwitcher, 5000);
 });
-
