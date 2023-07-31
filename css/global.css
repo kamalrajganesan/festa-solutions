@@ -1942,6 +1942,9 @@ img{
 .sec-title.light h2{
 	color:var(--white-color);
 }
+.sec-title.text-center h2:before {
+	display: none;
+}
 
 .sec-title.light .title{
 	color:var(--white-color);
