@@ -181,7 +181,8 @@
   
   .card-design.one .general {
     /* width: 300px; */
-    width: 333px;
+    /* width: 333px; */
+    width: 276px;
     height: 100%;
     position: absolute;
     top: 0;
@@ -251,7 +252,7 @@
   }
   
   .card-design.two .additional .more-info {
-    width: 300px;
+    width: 247px;
     float: right;
     position: absolute;
     right: 233px;
