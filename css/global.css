@@ -1937,6 +1937,9 @@ img{
 	width:60px;
 	background-color:var(--main-color);
 }
+.sec-title.text-center h2:before {
+	display: none;
+}
 
 .sec-title.light .text,
 .sec-title.light h2{
