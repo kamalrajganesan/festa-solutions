@@ -630,7 +630,7 @@ $flaticon-map: (
     content: map-get($flaticon-map, "play");
 }
 .flaticon-instagram:before {
-    content: map-get($flaticon-map, "instagram");
+    content: map-get();
 }
 .flaticon-pinterest:before {
     content: map-get($flaticon-map, "pinterest");

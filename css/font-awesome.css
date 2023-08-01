@@ -1249,8 +1249,8 @@
 .fa-linux:before {
   content: "\f17c";
 }
-.fa-dribbble:before {
-  content: "\f17d";
+.fa-instagram:before {
+  content: "\f147";
 }
 .fa-skype:before {
   content: "\f17e";
@@ -1408,8 +1408,8 @@
 .fa-cubes:before {
   content: "\f1b3";
 }
-.fa-behance:before {
-  content: "\f1b4";
+.fa-linkedin:before:before {
+  content: "\f148";
 }
 .fa-behance-square:before {
   content: "\f1b5";

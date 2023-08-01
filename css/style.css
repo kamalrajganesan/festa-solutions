@@ -3898,7 +3898,7 @@
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
-	-ms-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;  
 	-o-transition:all 500ms ease;
 }
 
@@ -6603,6 +6603,10 @@
 	padding-left:var(--padding-left-70);
 	margin-bottom:var(--margin-bottom-20);
 }
+.footer-style-two .contact-widget .contact-list li .icon:hover{
+	color:white;
+	background-color:rgba(9,110,245,1);
+}
 
 .footer-style-two .contact-widget .contact-list li .icon{
 	position:absolute;
@@ -6747,11 +6751,6 @@
 	font-size:var(--font-22);
 	color:var(--color-five);
 	margin-top:var(--margin-top-10);
-}
-
-.counter-section .counter-column .inner-column:hover .icon-box .icon{
-	
-	
 }
 
 .counter-section .counter-column .icon-box .icon{
@@ -8512,6 +8511,7 @@
 .footer-style-two .links-widget .list li a:hover{
 	/* color: var(--color-fourtytwo); */
 	color: var(--color-eleven);
+	font-weight: bold;
 }
 
 /* Email Box */
@@ -8852,9 +8852,6 @@
 	transition:all 500ms ease;
 }
 
-.clients-section .image-box:hover img{
-	
-}
 
 .clients-section .owl-dots{
 	display:none;
