@@ -6656,6 +6656,7 @@
 
 .footer-style-two .footer-bottom .copyright a{
 	color:var(--color-twentyeight);
+	font-weight: bold;
 }
 
 .footer-style-two .footer-bottom .footer-nav{
