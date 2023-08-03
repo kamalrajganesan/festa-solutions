@@ -1899,7 +1899,7 @@ img{
 .sec-title{
 	position:relative;
 	z-index:1;
-	margin-bottom:var(--margin-bottom-40);
+	margin-bottom:var(--margin-bottom-20);
 }
 
 .sec-title .big-text{

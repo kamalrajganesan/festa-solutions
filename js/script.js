@@ -504,16 +504,20 @@
 		$('.products-carousel').owlCarousel({
 			loop:true,
 			margin:30,
-			nav:true,
-			smartSpeed: 500,
-			autoplay: 4000,
+			padding: 20,
 			navText: [ '<span class="flaticon-left-arrow"></span>', '<span class="flaticon-right-arrow"></span>' ],
+			nav: true,
+			dots: true,
+			smartSpeed: 500,
+			mouseDrag: true,
+			touchDrag: true,
+			autoplay: 4000,
 			responsive:{
 				0:{
 					items:1
 				},
 				480:{
-					items:1
+					items:2
 				},
 				600:{
 					items:2
