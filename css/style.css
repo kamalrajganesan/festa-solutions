@@ -4101,7 +4101,6 @@
 		right:0px;
 		bottom:0px;
 		opacity:0.50;
-		background-color: rgb(0 0 0 / 25%);
 	}
 
 	.cta-section .icon{
@@ -6035,6 +6034,12 @@
 		background-color:var(--color-twentyseven);
 	}
 
+	.testimonial-section .img-flip-x {
+		-webkit-transform: scaleX(-1);
+    	transform: scaleX(-1);
+		scale: 1.2
+	}
+
 	.single-verticle-carousel .slick-dots li.slick-active button{
 		height:40px !important;
 		/* background-color:var(--color-twentyeight) !important; */
@@ -6388,7 +6393,7 @@
 	.footer-style-two{
 		position:relative;
 		margin-top:-70px;
-		padding:160px 0px 0px;
+		padding:120px 0px 0px;
 		background-color:var(--color-thirtyone);
 		z-index: 1
 	}
@@ -6418,7 +6423,6 @@
 
 	.footer-style-two .widgets-section{
 		position:relative;
-		padding-bottom:var(--padding-bottom-60);
 	}
 
 	.footer-style-two .logo-widget{
@@ -6705,6 +6709,18 @@
 		padding-right:var(--padding-zero);
 	}
 
+	.cta-section-one .inner-container:before {
+		position: absolute;
+		content: '';
+		left: 0px;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		opacity: 0.50;
+		background-color: rgb(0 0 0 / 50%);
+	}
+
+
 	/*** 
 
 	====================================================================
@@ -6978,6 +6994,13 @@
 
 	.service-section-four .sec-title-three .text{
 		margin-top:var(--margin-top-45);
+	}
+
+	.service-section-five-container {
+		padding-top: 20px;
+		display:grid;
+		grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); /*this */
+		gap:14px;
 	}
 
 	.service-block-four{
@@ -8957,7 +8980,7 @@
 	}
 
 	.service-block-four.style-two .inner-box{
-		box-shadow:0px 10px 15px rgba(0,0,0,0.10);
+		box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.10)
 	}
 
 	.service-block-four.style-two .inner-box .icon-box{
@@ -8984,6 +9007,41 @@
 	.service-block-four.style-two .inner-box .image-layer:before{
 		background: var(--color-eleven);
 		background: linear-gradient(to right, var(--color-eleven) 0%, var(--main-color) 100%);
+	}
+
+
+
+	/*** 
+
+	====================================================================
+		Why choose us
+	====================================================================
+
+	***/
+
+	.why-choose-us {
+		padding: 60px 0px 40px;
+		background-image: url("../images/background/solar-panel-dark-v2.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	.why-choose-us .sec-title h2{
+		color: #fff;
+	}
+
+	.why-choose-us .sec-title h2:after{
+		color: #fff;
+	}
+
+	.why-choose-us .cta-container {
+		padding: var(--padding-bottom-40) 16px;
+	}
+
+	.why-choose-us .cta-container h4 {
+		color: #ffffff;
 	}
 
 	/*** 
