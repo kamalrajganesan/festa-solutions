@@ -39,12 +39,27 @@
 .header-top .top-left{
 	position: relative;
 	float:left;
-	padding:11px 0px;
+	padding: 5px 0px;
+	
 }
 
 .header-top .top-left .text{
-	font-size:var(--font-15);
+	float:left;
+	padding-left:25px;
+	display:inline-block;
 	color:var(--color-three);
+	font-size:var(--font-15);
+	margin-right:var(--margin-right-30);
+}
+
+
+.header-top .top-left .text:before{
+	position:absolute;
+	content:'\f017';
+	left:0px;
+	top:0px;
+	color:var(--color-three);
+	font-family: 'FontAwesome';
 }
 
 .header-top .top-left .text a{
@@ -59,30 +74,16 @@
 .header-top .top-right .clock{
 	position: relative;
 	float:left;
-	margin:14px 0px;
-	padding-left:25px;
+	/* margin:14px 0px; */
+	padding: 7px 0px 9px 25px;
 	display:inline-block;
 	color:var(--color-three);
 	font-size:var(--font-15);
 	margin-right:var(--margin-right-30);
+	display: flex;
 }
 
 .header-top .top-right .clock:before{
-	position:absolute;
-	content:'\f017';
-	left:0px;
-	top:0px;
-	color:var(--color-three);
-	font-family: 'FontAwesome';
-}
-
-.header-top .top-right .social-box{
-	position:relative;
-	float:left;
-	padding:13px 0px 13px 15px;
-}
-
-.header-top .top-right .social-box:before{
 	position:absolute;
 	content:'';
 	left:0px;
@@ -93,6 +94,19 @@
 	transform:rotate(20deg);
 	background-color:var(--color-three);
 }
+
+.head-menu a span:hover{
+	color: #35ccfa;
+}
+
+
+.header-top .top-right .social-box{
+	position:relative;
+	float:left;
+	padding:5px 25px 5px 0px;
+}
+
+
 
 .header-top .top-right .social-box a{
 	position:relative;

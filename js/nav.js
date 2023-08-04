@@ -9,9 +9,11 @@ menuMain.addEventListener("click", (e) => {
       return;
    }
    if (e.target.closest(".menu-item-has-children")) {
+      console.log("Called...")
       const hasChildren = e.target.closest(".menu-item-has-children");
       showSubMenu(hasChildren);
    }
+   console.log("Called.")
 });
 goBack.addEventListener("click", () => {
    hideSubMenu();
