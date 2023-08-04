@@ -51,8 +51,8 @@
 }
 
 .card-design.one .additional {
-  background: rgb(4,209,209);
-  background: linear-gradient(160deg, rgba(4,209,209,1) 0%, rgba(54,57,164,1) 71%);
+  /* background: rgb(4,209,209);
+  background: linear-gradient(160deg, rgba(4,209,209,1) 0%, rgba(54,57,164,1) 71%); */
 }
 
 .card-design.one .additional .user-card {
@@ -63,6 +63,7 @@
 }
 
 .card-design.one .general {
+  border-top: 2px solid var(--color-eleven);
   width: 100%;
   height: auto;
   z-index: 1;

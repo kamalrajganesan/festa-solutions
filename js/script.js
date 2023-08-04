@@ -508,6 +508,7 @@
 			navText: [ '<span class="flaticon-left-arrow"></span>', '<span class="flaticon-right-arrow"></span>' ],
 			nav: true,
 			dots: true,
+			// center: true,
 			smartSpeed: 500,
 			mouseDrag: true,
 			touchDrag: true,

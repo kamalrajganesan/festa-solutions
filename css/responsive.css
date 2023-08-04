@@ -1179,7 +1179,8 @@
 	.about-section .image-column .image .gear-icon-two,
 	.service-block .inner-box .shape-two,
 	.header-top .top-right .social-box:before,
-	.header-top .top-left{
+	.header-top .top-left,
+	.header-top .top-right{
 		display:none;
 	}
 	
@@ -1389,4 +1390,14 @@
 		padding-right:var(--padding-right-15);
 	}
 	
+	.main-nav-logo {
+		width: 100%;
+		height: auto;
+		scale: 1.1;
+	}
+
+	.header .logo{
+		width: 8rem;
+		height: auto;
+	}
 }
