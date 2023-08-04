@@ -4039,7 +4039,7 @@
 	position:relative;
 	text-align:center;
 	z-index:1;
-	padding:100px 0px 120px;
+	padding:50px 0px 50px;
 }
 
 .cta-section .gradient-layer{
@@ -12434,3 +12434,29 @@ line-height:0 important;
 	  }
 	}
 /*end number facts*/
+/*cta mobile responsive*/
+@media(max-width: 1125px){
+	.cta-section.auto-container{
+		flex-direction: row;
+	}
+	.auto-container .header{
+		width:50%
+	}
+	.auto-container .image{
+		width:50%
+	}
+	}
+@media(max-width: 564px){
+.cta-section .auto-container{
+	flex-direction: column;
+}
+.auto-container .header{
+	width:100%
+}
+.auto-container .image{
+	width:100%;
+	margin-top:50px;
+}
+}
+
+/*end of cta mobile responsive*/
