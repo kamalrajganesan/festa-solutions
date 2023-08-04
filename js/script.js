@@ -63,6 +63,28 @@ $('.bd-best-list').owlCarousel({
     }
 })
 /*client carousel end*/
+
+/*@media  owl carousel start*/
+
+$('.bd-best-list-owl').owlCarousel({
+    autoplay:true,
+	center:true,
+	items:1,
+    loop:true,
+	autoplayTimeout:2000,
+    responsive:{
+        0:{
+            items:2
+        },
+		600:{
+            items:6
+        },
+		1000:{
+            items:10
+        }
+    }
+})
+/*@media owl carousel end*/
 	
 	
 	//Submenu Dropdown Toggle
