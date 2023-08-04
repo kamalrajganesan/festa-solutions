@@ -755,6 +755,28 @@
 		);
 		wow.init();
 	}
+
+
+
+	// client carousel
+	$('.bd-best-list').owlCarousel({
+		autoplay:true,
+		center:true,
+		items:1,
+		loop:true,
+		autoplayTimeout:2000,
+		responsive:{
+			0:{
+				items:2
+			},
+			600:{
+				items:4
+			},
+			1000:{
+				items:6
+			}
+		}
+	})
 	
 
 

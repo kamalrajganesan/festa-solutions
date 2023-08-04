@@ -1,0 +1,139 @@
+.bd-best {
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+
+/* 
+*
+*  Business partner section styles
+*
+* 
+*/
+.business-image img {
+
+	width: 100%;
+	object-fit: cover;
+	height: 100%;
+	/* filter: grayscale(100%) */
+}
+
+
+.business-container {
+	max-width: 1300px;
+	margin: 0px auto 0px auto;
+	padding: 0px 40px;
+}
+
+@media (min-width: 1200px) and (max-width: 1441px) {
+	.business-container {
+		max-width: 1250px;
+		padding: 0px 36px;
+	}
+}
+
+@media (max-width: 767px) {
+	.business-container {
+		padding: 0px 30px;
+	}
+}
+
+@media (max-width: 479px) {
+	.business-container {
+		padding: 0px 30px 0px 20px;
+	}
+}
+
+.business-partners {
+	padding: 104px 94px;
+	background-color: #87ceeb1c;
+}
+
+.business-partners .skills-flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 50px;
+	width: 100%;
+}
+
+@media (max-width: 700px) {
+	.business-partners .skills-flex-container {
+		gap: 30px;
+	}
+}
+
+.business-partners .skills-flex-container .business-box {
+	flex: 1 1 15%;
+	background: white;
+	border-radius: 1.5rem;
+	/* box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 24px; */
+	padding: 25px;
+	text-align: center;
+
+	transition: all 0.3s ease-in;
+}
+
+.business-partners .skills-flex-container .business-box .business-image {
+	transition: all 0.3s ease-in-out 0.1s;
+}
+
+.business-partners .skills-flex-container .business-box .business-image img {
+	max-width: 197px;
+	object-fit: contain;
+}
+
+.business-partners .skills-flex-container .business-box:hover {
+	/* box-shadow: rgba(0, 0, 0, 0.5) 20px 20px 30px; */
+	transform: scale(1);
+}
+
+.business-partners .skills-flex-container .business-box:hover .business-image {
+	transform: scale(1.5) translateY(-2px);
+
+}
+
+.business-partners .skills-flex-container .business-box:hover .business-image img {
+	animation: bouncing 0.5s 0.1s;
+	filter: none;
+}
+
+.business-partners .skills-flex-container .business-box:hover .title {
+	letter-spacing: 2px;
+}
+
+@media (max-width: 1100px) {
+	.business-partners .skills-flex-container .business-box {
+		flex: 1 0 25%;
+	}
+}
+
+@media (max-width: 630px) {
+	.business-partners .skills-flex-container .business-box {
+		flex: 1 0 35%;
+		padding: 15px;
+	}
+
+	.business-partners .skills-flex-container .business-box .business-image img {
+		max-width: 50px;
+	}
+}
+
+@keyframes bouncing {
+
+	from,
+	to {
+		transform: scale(1, 1);
+	}
+
+	25% {
+		transform: scale(0.95, 1.05);
+	}
+
+	50% {
+		transform: scale(1.05, 0.95);
+	}
+
+	75% {
+		transform: scale(0.95, 1.05);
+	}
+}
