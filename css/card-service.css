@@ -27,7 +27,7 @@
 }
 
 .card-design .user-card.img1 {
-  background: url("../images/resource/svgs/8392588_3895249.svg");
+  background: url("../images/resource/products/product-distribution.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,7 +35,7 @@
 }
 
 .card-design .user-card.img2 {
-  background: url("../images/resource/svgs/images1.png");
+  background: url("../images/resource/products/22635327_6634686.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -43,7 +43,23 @@
 }
 
 .card-design .user-card.img3 {
-  background: url("../images/resource/svgs/13246757_5174562.png");
+  background: url("../images/resource/products/engineering-soluitons.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: luminosity;
+}
+
+.card-design .user-card.img4 {
+  background: url("../images/resource/products/epc-projects.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: luminosity;
+}
+
+.card-design .user-card.img5 {
+  background: url("../images/resource/products/operation-and-managment.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -51,8 +67,7 @@
 }
 
 .card-design.one .additional {
-  /* background: rgb(4,209,209);
-  background: linear-gradient(160deg, rgba(4,209,209,1) 0%, rgba(54,57,164,1) 71%); */
+  
 }
 
 .card-design.one .additional .user-card {

@@ -22,7 +22,7 @@
 .business-container {
 	max-width: 1300px;
 	margin: 0px auto 0px auto;
-	padding: 0px 40px;
+	padding: 20px 40px;
 }
 
 @media (min-width: 1200px) and (max-width: 1441px) {
@@ -45,7 +45,7 @@
 }
 
 .business-partners {
-	padding: 104px 94px;
+	padding: 70px 40px;
 	background-color: #87ceeb1c;
 }
 
@@ -65,7 +65,7 @@
 .business-partners .skills-flex-container .business-box {
 	flex: 1 1 15%;
 	background: white;
-	border-radius: 1.5rem;
+	border-radius: .5rem;
 	/* box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 24px; */
 	padding: 25px;
 	text-align: center;
