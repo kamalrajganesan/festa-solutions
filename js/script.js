@@ -777,6 +777,15 @@
 			}
 		}
 	})
+
+
+
+	// onClick scroll
+	$(".scroll-to-services").click(function() {
+		$('html,body').animate({
+			scrollTop: $(".service-definition").offset().top
+		}, 'slow');
+	});
 	
 
 
