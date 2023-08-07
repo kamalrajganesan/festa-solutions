@@ -3,7 +3,6 @@
 	@import url('global.css');
 	@import url('font-awesome.css');
 	@import url('flaticon.css');
-	@import url('animate.css');
 	@import url('owl.css');
 	@import url('slick.css');
 	@import url('preloader.css');
@@ -10189,7 +10188,7 @@
 
 	.project-detail-section .upper-box{
 		position:relative;
-		padding-right:300px;
+		/* padding-right:300px; */
 	}
 
 	.project-detail-section .upper-box .image{
