@@ -3376,22 +3376,7 @@
 		background-repeat:no-repeat;
 	}
 
-	.products-section .owl-nav .owl-prev{
-		position:absolute;
-		left: 0px;
-		top: -5px;
-		font-family: "Flaticon";
-		font-size: var(--font-20);
-	}
-
-	.products-section .owl-nav .owl-next{
-		position:absolute;
-		right: 0px;
-		top: -5px;
-		font-family: "Flaticon";
-		font-size: var(--font-20);
-	}
-
+	
 	.products-section .owl-nav{
 		position:absolute;
 		left:50%;

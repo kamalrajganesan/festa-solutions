@@ -19,7 +19,7 @@ $(document).ready(function() {
         .owlCarousel({
             items: slidesPerPage,
             dots: false,
-            nav: true,
+            nav: false,
             item: 4,
             smartSpeed: 200,
             slideSpeed: 500,
