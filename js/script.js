@@ -1,3 +1,36 @@
+//product hero section start
+const plus = document.querySelector(".plus"),
+    minus = document.querySelector(".minus"),
+    num = document.querySelector(".num");
+
+window.addEventListener("load", ()=> {
+    if (localStorage["num"]) {
+        num.innerText = localStorage.getItem("num");
+    } else {
+        let a = "1";
+        num.innerText = a;
+    }
+});
+
+plus.addEventListener("click", ()=> {
+    a = num.innerText;
+    a++;
+    a = (a < 10) ?  a : a;
+    localStorage.setItem("num", a);
+    num.innerText = localStorage.getItem("num");
+});
+
+minus.addEventListener("click", ()=> {
+    a = num.innerText;
+    if (a > 1) {
+        a--;
+        a = (a < 10) ?  a : a;
+        localStorage.setItem("num", a);
+        num.innerText = localStorage.getItem("num");
+    }
+});
+
+//product hero section end
 
 (function($) {
 	

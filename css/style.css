@@ -12859,3 +12859,36 @@ line-height:0 important;
 		display: block;
 	}
 }
+
+
+/*product hero section start*/
+
+.button-product{
+	position: relative;
+    padding: 16px 26px 14px;
+    border-radius: 4px;
+    font-weight: 700;
+    display: inline-block;
+    font-size: var(--font-14);
+    color: white;
+    text-transform: uppercase;
+    background-color: var(--color-eleven);
+}
+
+.quantity-section {
+  zoom: 2;
+}
+.quantity-section .minus,.quantity-section .plus {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(6,97,176,1);
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.quantity-section .num {
+    padding: 0 10px;
+}
+
+/*product hero section end*/
