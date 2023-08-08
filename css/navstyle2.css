@@ -82,7 +82,7 @@ a {
 .header .nav-menu > ul > li > a {
   border: 1px solid rgba(255, 255, 255, 0.5);
   background-position: 150% top;
-  font-size: 15.5px;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -180,6 +180,11 @@ a {
 .nav-menu-items {
   font-size: 15px;
   font-weight: 500;
+  transition: all .3s;
+}
+.nav-menu-items:hover {
+  font-weight: bold;
+  transition: all .5s;
 }
 .nav-menu-best-sellers {
   color: rgb(92 161 204);
@@ -677,4 +682,9 @@ a {
   .list-item-img {
     visibility: hidden;
   }
+}
+
+/* elevate text */
+.elevate-text:hover {
+  scale: 1.2;
 }

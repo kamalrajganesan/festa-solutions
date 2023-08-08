@@ -512,7 +512,7 @@
 			smartSpeed: 500,
 			mouseDrag: true,
 			touchDrag: true,
-			autoplay: 4000,
+			// autoplay: 4000,
 			responsive:{
 				0:{
 					items:1
