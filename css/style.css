@@ -7120,6 +7120,10 @@
 	margin-top:var(--margin-top-20);
 }
 
+.service-block-four.alternate .inner-box h5 {
+	font-weight:800;
+}
+
 .service-block-four .inner-box h5 a{
 	position:relative;
 	color:var(--color-fourty);
@@ -7134,6 +7138,12 @@
 .service-block-four .inner-box:hover .text{
 	color: var(--white-color);
 }
+
+.service-block-four.alternate .inner-box:hover h5 a,
+.service-block-four.alternate .inner-box:hover .text{
+	color: inherit;
+}
+
 
 .service-block-four .inner-box .text{
 	position:relative;
@@ -10445,12 +10455,14 @@
 	margin-top:var(--margin-top-5);
 }
 
-.project-detail-section .option-list{
+.project-detail-section .option-list,
+.option-list {
 	position:relative;
 	margin-top:var(--margin-top-15);
 }
 
-.project-detail-section .option-list li{
+.project-detail-section .option-list li,
+.option-list li {
 	position:relative;
 	line-height:30px;
 	color:var(--color-five);
@@ -10459,7 +10471,8 @@
 	margin-bottom:var(--margin-bottom-15);
 }
 
-.project-detail-section .option-list li:before{
+.project-detail-section .option-list li:before,
+.option-list li:before {
 	position: absolute;
 	left: 0px;
 	top: -1px;
@@ -11868,6 +11881,10 @@
 	color:white;
 }
 
+.service-block-four.alternate .inner-box:hover {
+	color: inherit;
+}
+
 .inner-box::before{
 	content:"";
 	position:absolute;
@@ -12559,6 +12576,34 @@ line-height:0 important;
 /*** 
 
 ====================================================================
+	BYOP Solution
+====================================================================
+
+***/
+
+.byop-solution {
+	position: relative;
+	padding: 40px 0px 40px;	
+}
+
+
+/*** 
+
+====================================================================
+	Solar Panel Mounts
+====================================================================
+
+***/
+
+.solar-panel-mounts {
+	position: relative;
+	padding: 40px 0px 40px;	
+}
+
+
+/*** 
+
+====================================================================
 	Service definition
 ====================================================================
 
@@ -12581,14 +12626,14 @@ line-height:0 important;
 	display: none;
 }
 
-.service-definition .tabs ul li label {
+.service-definition .tabs > ul li label {
 	font-family: inherit;
 	font-weight: bold;
 	font-size: 18px;
 	color: #428BFF;
 }
 
-.service-definition .tabs ul {
+.service-definition .tabs > ul {
 	list-style-type: none;
 	padding-left: 0;
 	display: flex;
@@ -12599,7 +12644,7 @@ line-height:0 important;
 	flex-wrap: wrap;
 }
 
-.service-definition .tabs ul li {
+.service-definition .tabs > ul li {
 	box-sizing: border-box;
 	flex: 1;
 	width: 25%;
@@ -12607,7 +12652,7 @@ line-height:0 important;
 	text-align: center;
 }
 
-.service-definition .tabs ul li label {
+.service-definition .tabs > ul li label {
 	transition: all 0.3s ease-in-out;
 	color: #929daf;
 	padding: 5px auto;
@@ -12624,11 +12669,11 @@ line-height:0 important;
 	user-select: none;
 }
 
-.service-definition .tabs ul li label br {
+.service-definition .tabs > ul li label br {
 	display: none;
 }
 
-.service-definition .tabs ul li label svg {
+.service-definition .tabs > ul li label svg {
 	fill: #929daf;
 	height: 1.5em;
 	vertical-align: bottom;
@@ -12636,16 +12681,16 @@ line-height:0 important;
 	transition: all 0.2s ease-in-out;
 }
 
-.service-definition .tabs ul li label:hover,
-.service-definition .tabs ul li label:focus,
-.service-definition .tabs ul li label:active {
+.service-definition .tabs > ul li label:hover,
+.service-definition .tabs > ul li label:focus,
+.service-definition .tabs > ul li label:active {
 	outline: 0;
 	color: #bec5cf;
 }
 
-.service-definition .tabs ul li label:hover svg,
-.service-definition .tabs ul li label:focus svg,
-.service-definition .tabs ul li label:active svg {
+.service-definition .tabs > ul li label:hover svg,
+.service-definition .tabs > ul li label:focus svg,
+.service-definition .tabs > ul li label:active svg {
 	fill: #bec5cf;
 }
 
@@ -12687,10 +12732,10 @@ line-height:0 important;
 .service-definition .tabs input[name=tab-control]:nth-of-type(1):checked~ul>li:nth-child(1)>label {
 	cursor: default;
 	color: #428BFF;
-}
-
-.service-definition .tabs input[name=tab-control]:nth-of-type(1):checked~ul>li:nth-child(1)>label svg {
-	fill: #428BFF;
+	background-color: #e8f4ff;
+	border-radius: 12px 12px 0px 0px;
+	padding: 8px 8px;
+	border-bottom: 3px inset #428BFF;
 }
 
 @media (max-width: 600px) {
@@ -12710,10 +12755,10 @@ line-height:0 important;
 .service-definition .tabs input[name=tab-control]:nth-of-type(2):checked~ul>li:nth-child(2)>label {
 	cursor: default;
 	color: #428BFF;
-}
-
-.service-definition .tabs input[name=tab-control]:nth-of-type(2):checked~ul>li:nth-child(2)>label svg {
-	fill: #428BFF;
+	background-color: #e8f4ff;
+	border-radius: 12px 12px 0px 0px;
+	padding: 8px 8px;
+	border-bottom: 3px inset #428BFF;
 }
 
 @media (max-width: 600px) {
@@ -12723,7 +12768,7 @@ line-height:0 important;
 }
 
 .service-definition .tabs input[name=tab-control]:nth-of-type(2):checked~.slider {
-	transform: translateX(100%);
+	transform: translateX(70%);
 }
 
 .service-definition .tabs input[name=tab-control]:nth-of-type(2):checked~.content>section:nth-child(2) {
@@ -12733,10 +12778,10 @@ line-height:0 important;
 .service-definition .tabs input[name=tab-control]:nth-of-type(3):checked~ul>li:nth-child(3)>label {
 	cursor: default;
 	color: #428BFF;
-}
-
-.service-definition .tabs input[name=tab-control]:nth-of-type(3):checked~ul>li:nth-child(3)>label svg {
-	fill: #428BFF;
+	background-color: #e8f4ff;
+	border-radius: 12px 12px 0px 0px;
+	padding: 8px 8px;
+	border-bottom: 3px inset #428BFF;
 }
 
 @media (max-width: 600px) {
@@ -12746,7 +12791,7 @@ line-height:0 important;
 }
 
 .service-definition .tabs input[name=tab-control]:nth-of-type(3):checked~.slider {
-	transform: translateX(200%);
+	transform: translateX(10%);
 }
 
 .service-definition .tabs input[name=tab-control]:nth-of-type(3):checked~.content>section:nth-child(3) {
@@ -12756,10 +12801,10 @@ line-height:0 important;
 .service-definition .tabs input[name=tab-control]:nth-of-type(4):checked~ul>li:nth-child(4)>label {
 	cursor: default;
 	color: #428BFF;
-}
-
-.service-definition .tabs input[name=tab-control]:nth-of-type(4):checked~ul>li:nth-child(4)>label svg {
-	fill: #428BFF;
+	background-color: #e8f4ff;
+	border-radius: 12px 12px 0px 0px;
+	padding: 8px 8px;
+	border-bottom: 3px inset #428BFF;
 }
 
 @media (max-width: 600px) {
@@ -12779,10 +12824,10 @@ line-height:0 important;
 .service-definition .tabs input[name=tab-control]:nth-of-type(5):checked~ul>li:nth-child(5)>label {
 	cursor: default;
 	color: #428BFF;
-}
-
-.service-definition .tabs input[name=tab-control]:nth-of-type(5):checked~ul>li:nth-child(5)>label svg {
-	fill: #428BFF;
+	background-color: #e8f4ff;
+	border-radius: 12px 12px 0px 0px;
+	padding: 8px 8px;
+	border-bottom: 3px inset #428BFF;
 }
 
 @media (max-width: 600px) {
@@ -12798,6 +12843,30 @@ line-height:0 important;
 .service-definition .tabs input[name=tab-control]:nth-of-type(5):checked~.content>section:nth-child(5) {
 	display: block;
 }
+
+.service-definition .tabs input[name=tab-control]:nth-of-type(6):checked~ul>li:nth-child(6)>label {
+	cursor: default;
+	color: #428BFF;
+	background-color: #e8f4ff;
+	border-radius: 12px 12px 0px 0px;
+	padding: 8px 8px;
+	border-bottom: 3px inset #428BFF;
+}
+
+@media (max-width: 600px) {
+	.service-definition .tabs input[name=tab-control]:nth-of-type(6):checked~ul>li:nth-child(6)>label {
+		background: rgba(0, 0, 0, 0.08);
+	}
+}
+
+.service-definition .tabs input[name=tab-control]:nth-of-type(6):checked~.slider {
+	transform: translateX(410%);
+}
+
+.service-definition .tabs input[name=tab-control]:nth-of-type(6):checked~.content>section:nth-child(6) {
+	display: block;
+}
+
 
 @-webkit-keyframes content {
 	from {
@@ -12859,3 +12928,325 @@ line-height:0 important;
 		display: block;
 	}
 }
+
+
+/*** 
+
+====================================================================
+	Business Models
+====================================================================
+
+***/
+
+.business-models {
+	position: relative;
+	padding: 40px 0px 40px;	
+}
+
+.grid-cards {
+	display: flex;
+	justify-content: center;
+	flex: 1;
+	margin: 1rem auto;
+
+	@media (max-width: 922px) and (min-width: 601px) {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@media (max-width: 600px) {
+		flex-direction: column;
+	}
+
+	.card {
+		position: relative;
+		flex: 1;
+		background: #fff;
+		padding: 1rem 1rem 1.5rem;
+		box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+		border-radius: 1rem;
+		min-height: 170px;
+		margin: 15px;
+		transition: all ease 0.3s;
+		overflow: hidden;
+		animation: fadeInLeft 1.5s backwards;
+
+		&:nth-child(2) {
+			animation-delay: 0.15s;
+		}
+
+		&:nth-child(3) {
+			animation-delay: 0.2s;
+		}
+
+		&:nth-child(4) {
+			animation-delay: 0.3s;
+		}
+
+		&:hover {
+			transform: translateY(-6px);
+			-webkit-transform: translateY(-6px);
+		}
+
+		img {
+			aspect-ratio: 500 / 320;
+			width: 100%;
+			border-radius: 12px;
+			margin-bottom: 15px;
+			position: relative;
+			max-height: 320px;
+			object-fit: cover;
+			box-shadow: 0 6px 16px -7px #aaa;
+		}
+
+		.card-body {
+			color: #676767;
+			width: 100%;
+			margin-bottom: 40px;
+			padding: 0 0.8rem;
+			position: relative;
+
+			.icon {
+				display: flex;
+				width: 100%;
+				text-align: left;
+				padding: 15px 0;
+
+				i {
+					position: relative;
+					font-size: 25px;
+					transition: 0.5s;
+					line-height: 0;
+					top: -7px;
+					left: -12px;
+					z-index: 2;
+
+					&::before {
+						background: #FFD854;
+						background-clip: border-box;
+						-webkit-background-clip: text;
+						-webkit-text-fill-color: transparent;
+					}
+				}
+
+				h3 {
+					margin: -9px 0 0 20px;
+				}
+			}
+
+			.title-card {
+				text-align: center;
+				padding-bottom: 10px;
+			}
+
+			p {
+				font-size: 14px;
+				line-height: 22px;
+				font-weight: 300;
+			}
+		}
+
+		.card-footer {
+			display: flex;
+			justify-content: flex-end;
+			position: absolute;
+			bottom: 0;
+			width: calc(100% - 1rem);
+
+			a {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background: #FFD854;
+				color: #fff;
+				text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.08);
+				font-size: 1rem;
+				font-weight: 700;
+				text-decoration: none;
+				width: 56%;
+				height: 40px;
+				border-top-left-radius: 1rem;
+				border-bottom-right-radius: 1rem;
+
+				&:hover {
+					filter: brightness(0.98);
+				}
+			}
+		}
+	}
+}
+
+@keyframes fadeInLeft {
+	0% {
+		transform: translate(-100%, 0);
+	}
+
+	100% {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+
+/*** 
+
+====================================================================
+	Solar panel mount types
+====================================================================
+
+***/
+
+.snip1543 {
+	background-color: #fff;
+	color: #ffffff;
+	font-size: 18px;
+	overflow: hidden;
+	position: relative;
+	text-align: left;
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+  }
+  
+  .snip1543 *,
+  .snip1543 *:before,
+  .snip1543 *:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.45s ease;
+	transition: all 0.45s ease;
+  }
+  
+  .snip1543 img {
+	backface-visibility: hidden;
+	max-width: 100%;
+	vertical-align: top;
+  }
+  
+  /* .snip1543:before, */
+  .snip1543:after {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -150px;
+	right: 0;
+	content: '';
+	background-color: #6cabe4;
+	opacity: 0.8;
+	-webkit-transition: all 0.45s ease;
+	transition: all 0.45s ease;
+  }
+  
+  .snip1543:before {
+	-webkit-transform: skew(30deg) translateX(-80%);
+	transform: skew(30deg) translateX(-80%);
+  }
+  
+  .snip1543:after {
+	-webkit-transform: skew(-30deg) translateX(-70%);
+	transform: skew(-30deg) translateX(-70%);
+  }
+  
+  .snip1543 figcaption {
+	position: absolute;
+	top: 0px;
+	align-items: center;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 1;
+	bottom: 0;
+	padding: 25px 40% 25px 20px;
+  }
+  
+  /* .snip1543 figcaption:before, */
+  .snip1543 figcaption:after {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -50px;
+	right: 0;
+	background-color: #6cabe4;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+	content: '';
+	opacity: 0.8;
+	z-index: -1;
+  }
+  
+  .snip1543 figcaption:before {
+	-webkit-transform: skew(30deg) translateX(-100%);
+	transform: skew(30deg) translateX(-100%);
+  }
+  
+  .snip1543 figcaption:after {
+	-webkit-transform: skew(-30deg) translateX(-90%);
+	transform: skew(-30deg) translateX(-90%);
+  }
+  
+  .snip1543 h2,
+  .snip1543 p {
+	margin: 0;
+	opacity: 0;
+	color: #fff;
+	letter-spacing: 1px;
+  }
+  
+  .snip1543 h2 {
+	font-weight: 700;
+	line-height: 1em;
+	text-transform: uppercase;
+  }
+  
+  .snip1543 p {
+	font-size: 0.9em;
+  }
+  
+  .snip1543 a {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+  }
+  
+  .snip1543:hover h2,
+  .snip1543.hover h2,
+  .snip1543:hover p,
+  .snip1543.hover p {
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+	opacity: 0.9;
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+  }
+  
+  .snip1543:hover:before,
+  .snip1543.hover:before {
+	-webkit-transform: skew(30deg) translateX(-20%);
+	transform: skew(30deg) translateX(-20%);
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+  }
+  
+  .snip1543:hover:after,
+  .snip1543.hover:after {
+	-webkit-transform: skew(-30deg) translateX(-10%);
+	transform: skew(-30deg) translateX(-10%);
+  }
+  
+  .snip1543:hover figcaption:before,
+  .snip1543.hover figcaption:before {
+	-webkit-transform: skew(30deg) translateX(-40%);
+	transform: skew(30deg) translateX(-40%);
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+  }
+  
+  .snip1543:hover figcaption:after,
+  .snip1543.hover figcaption:after {
+	-webkit-transform: skew(-30deg) translateX(-30%);
+	transform: skew(-30deg) translateX(-30%);
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+  }
