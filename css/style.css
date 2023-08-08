@@ -10359,7 +10359,8 @@
 .project-detail-section .middle-box p{
 	position:relative;
 	line-height:30px;
-	color:var(--color-five);
+	/* color:var(--color-five); */
+	color: #ffffff;
 	font-size:var(--font-17);
 }
 
