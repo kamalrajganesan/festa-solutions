@@ -239,7 +239,8 @@
 		visibility:hidden;
 		opacity:0;
 	}
-	`	
+	
+	
 }
 
 @media only screen and (max-width: 1023px){
@@ -1053,6 +1054,10 @@
 		width:100%;
 	}
 	
+	.timeline-img{
+		height: 100%;
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 599px){
@@ -1166,6 +1171,10 @@
 		margin-top:var(--margin-top-25);
 	}
 	
+	.timeline-img{
+		height: 100%;
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 479px) {
@@ -1399,5 +1408,10 @@
 	.header .logo{
 		width: 8rem;
 		height: auto;
+	}
+
+	.timeline-img{
+		height: 100%;
+		width: 100%;
 	}
 }
