@@ -26,7 +26,7 @@
 
 #our-services {
     background: #f6f6f6;
-    min-height: 95vh;
+    min-height: 85vh;
     padding-top: 12vh;
 }
 
@@ -75,7 +75,7 @@
 }
 
 #our-services .services .column .service:hover {
-    background: #28282e;
+    background: #dcf3ff;
     color: #fff;
 }
 
@@ -99,8 +99,8 @@
 }
 
 .service-txt{
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 25px;
 }
 
 /* end of our services section */

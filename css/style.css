@@ -5615,7 +5615,7 @@
 	.project-section-two{
 		position:relative;
 		overflow:hidden;
-		padding-bottom:var(--padding-bottom-70);
+		padding-top:var(--padding-bottom-10);
 	}
 
 	.project-section-two:before {
@@ -5625,7 +5625,7 @@
 		top: 121px;
 		bottom: 0px;
 		right: 0px;
-		height: 429px;
+		height: 450px;
 		background-color: var(--color-twentyfour);
 	}
 
@@ -12579,3 +12579,6 @@
 		transition: all 0.30s ease 0s;
 	}
 	
+	#our-services{
+		background-image: url("../images/solar-img.jpg");
+	}

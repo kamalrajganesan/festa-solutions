@@ -32,6 +32,9 @@
   }
 }
 
+#carousel-client{
+  background-color: var(--color-twentyfour);
+}
 .nhm_footer ul.iconli {
   padding: 94px;
   list-style: none;
@@ -215,17 +218,17 @@
 /*--end of mobile display-*/
 
 .bd-best-owl-carousel {
-  height: calc(264px + 3rem);
+  height: calc(300px + 3rem);
   /* padding: 3.5rem 0; */
   overflow: hidden;
   position: relative;
-  background-color: #1a55a3;
+  background-color: var(--color-twentyfour);
 }
 
 .bd-best-list-owl {
   display: flex;
-  position: absolute;
-  top: 6rem;
+  /* position: absolute; */
+  /* top: 2rem; */
 }
 
 .bd-best-list-owl img:hover {
