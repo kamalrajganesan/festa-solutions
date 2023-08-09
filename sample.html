@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/sample.css">
+</head>
+
+<body>
+
+    <section id="our-services">
+        <div class="container">
+            <div class="desc">
+                <div class="heading">
+                    <h1>Our Services</h1>
+                </div>
+                <div class="text">
+                    <p>WHAT WE OFFER </p>
+                </div>
+            </div>
+            <div class="services">
+                <div class="column" id="column-1">
+                    <div class="service">
+                        <div class="service-desc">
+                            <i class="service-icon fas fa-flask">
+                            </i>
+                            <p class="service-txt">
+                                LIGHT DUTY TOWING & RECOVERY
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="service-desc">
+                            <i class="service-icon fas fa-bullhorn">
+                            </i>
+                            <p class="service-txt">
+                                WINCH OUTS
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="service-desc">
+                            <i class="service-icon far fa-lightbulb">
+                            </i>
+                            <p class="service-txt">
+                                ROADSIDE ASSISTANCE
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column" id="column-2">
+                    <div class="service">
+                        <div class="service-desc">
+                            <i class="service-icon fas fa-wrench">
+                            </i>
+                            <p class="service-txt">
+                                MEDIUM DUTY TOWING & RECOVERY
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="service-desc">
+                            <i class="service-icon fas fa-database">
+                            </i>
+                            <p class="service-txt">
+                                EQUIPMENT HAULING
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="service-desc">
+                            <i class="service-icon fas fa-chart-pie">
+                            </i>
+                            <p class="service-txt">
+                                motorcycle towing
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column" id="column-2">
+                    <div class="service">
+                        <div class="service-desc">
+                            <i class="service-icon fas fa-tasks">
+                            </i>
+                            <p class="service-txt">
+                                HEAVY DUTY TOWING & TRANSPORT
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="service-desc">
+                            <i class="service-icon fas fa-certificate">
+                            </i>
+                            <p class="service-txt">
+                                ROTATOR & RECOVERY
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service ">
+                        <div class="service-desc">
+                            <i class="service-icon">
+                            </i>
+                            <p class="service-txt">
+                                specialized transport
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column" id="column-2">
+                    <div class="service">
+                        <div class="service-desc">
+                            <i class="service-icon fas fa-tasks">
+                            </i>
+                            <p class="service-txt">
+                                EXTREAM OFFROAD RECOVERY
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="service-desc">
+                            <i class="service-icon fas fa-certificate">
+                            </i>
+                            <p class="service-txt">
+                                POLICE TOWING & IMPOUND
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service ">
+                        <div class="service-desc">
+                            <i class="service-icon">
+                            </i>
+                            <p class="service-txt">
+                                FORKLIFT SERVICE
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear-fix"></div>
+        </div>
+    </section>
+
+</body>
+
+
+<script>
+    /*global $*/
+    $(document).ready(function () {
+        "use strict";
+        var heading = $('#our-services .desc .heading h1'),
+            txt = $('#our-services .desc .text'),
+            serviceItem = $('#our-services .services .column .service'),
+            tl = new TimelineLite();
+
+        tl
+            .from(heading, 0.3, { opacity: 0, y: -20 }, '+=0.3')
+            .from(txt, 0.3, { opacity: 0, y: -20 })
+            .staggerFrom(serviceItem, 0.2, { x: -10, autoAlpha: 0 }, 0.1);
+
+    });
+</script>
+
+</html>
