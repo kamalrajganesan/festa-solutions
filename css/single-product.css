@@ -70,8 +70,18 @@
 	font-size: 45px;
 }
 .product-thumb .item img {
-	height: 100px;
+	width:100%;
 }
+.product-slider .item{
+    width:60%;
+    height:60vh;
+    margin:0 auto;
+}
+.product-thumb .item{
+    width:60%;
+    margin:0 auto;
+}
+
 .product-name {
 	font-size: 22px;
 	font-weight: 500;
@@ -143,7 +153,7 @@
     color: #c59b08;
 }
 .product-dtl p {
-	font-size: 14px;
+	font-size: 1.1rem;
 	line-height: 24px;
 	color: #7a7a7a;
 }
@@ -265,9 +275,11 @@
 /* Product shiny effect  */
 .block-inner {
 	
-    background: rgb(0,172,238);
-    background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
-    color: #fff;
+    /* background: rgb(0,172,238); */
+    /* background: linear-gradient(181.2deg, rgb(181, 239, 249) 100%, rgb(181, 236, 249) 100%); */
+    background-color :#e7eff9;
+background-image :linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
+    
     overflow: hidden;
     border-radius:5rem;
 }

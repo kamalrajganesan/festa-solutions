@@ -10,24 +10,26 @@ window.addEventListener("load", ()=> {
         let a = "1";
         num.innerText = a;
     }
-});
 
-plus.addEventListener("click", ()=> {
-    a = num.innerText;
-    a++;
-    a = (a < 10) ?  a : a;
-    localStorage.setItem("num", a);
-    num.innerText = localStorage.getItem("num");
-});
-
-minus.addEventListener("click", ()=> {
-    a = num.innerText;
-    if (a > 1) {
-        a--;
-        a = (a < 10) ?  a : a;
-        localStorage.setItem("num", a);
-        num.innerText = localStorage.getItem("num");
-    }
+	plus.addEventListener("click", ()=> {
+		a = num.innerText;
+		console.log("DMN, ", a);
+		a++;
+		a = (a < 10) ?  a : a;
+		localStorage.setItem("num", a);
+		num.innerText = localStorage.getItem("num");
+	});
+	
+	minus.addEventListener("click", ()=> {
+		a = num.innerText;
+		if (a > 1) {
+			a--;
+			a = (a < 10) ?  a : a;
+			localStorage.setItem("num", a);
+			num.innerText = localStorage.getItem("num");
+		}
+	});
+	
 });
 
 //product hero section end
