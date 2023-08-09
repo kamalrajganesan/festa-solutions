@@ -49,6 +49,13 @@
 	background-color: #87ceeb1c;
 }
 
+
+.about {
+	padding: 30px 100px 200px 100px;
+	background-color: #87ceeb1c;
+}
+
+
 .business-partners .skills-flex-container {
 	display: flex;
 	flex-wrap: wrap;

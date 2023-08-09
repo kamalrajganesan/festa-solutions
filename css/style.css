@@ -3650,6 +3650,7 @@
 		position:relative;
 		overflow:hidden;
 		padding: 70px 0px 10px;
+		background-color: var(--color-fourteen);
 	}
 
 	.team-section .owl-carousel .owl-stage-outer{
@@ -3797,7 +3798,7 @@
 		position:relative;
 		width:100%;
 		display:block;
-		filter: grayscale(100%);
+		/* filter: grayscale(100%); */
 		transition:all 500ms ease;
 		-moz-transition:all 500ms ease;
 		-webkit-transition:all 500ms ease;
@@ -3833,7 +3834,7 @@
 
 	.team-block .inner-box .image .social-box a:hover{
 		color:var(--main-color);
-		background-color:var(--white-color);
+		background-color:var(--color-fiftyfour);
 		box-shadow:0px 0px 10px rgba(0,0,0,0.10);
 	}
 
@@ -5617,14 +5618,15 @@
 		padding-bottom:var(--padding-bottom-70);
 	}
 
-	.project-section-two:before{
-		position:absolute;
-		content:'';
-		left:0px;
-		bottom:0px;
-		right:0px;
-		height:520px;
-		background-color:var(--color-twentyfour);
+	.project-section-two:before {
+		position: absolute;
+		content: '';
+		left: 0px;
+		top: 121px;
+		bottom: 0px;
+		right: 0px;
+		height: 429px;
+		background-color: var(--color-twentyfour);
 	}
 
 	.project-section-two .title-column{
