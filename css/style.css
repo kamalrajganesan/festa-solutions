@@ -12586,6 +12586,12 @@
 	@media (max-width:540px){
 		.project-section-two .title-column .inner-column {
 			position: relative;
-			margin-top: 50px;
+			margin-top: 55px;
 		}
+	}
+		@media (max-width:1023px)and  ( min-width:720px){
+			.project-section-two .title-column .inner-column {
+				position: relative;
+				margin-top: 35px;
+			}		
 	}
