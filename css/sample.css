@@ -107,7 +107,7 @@
 
 /* media query */
 
-@media all and (max-width: 967px) {
+@media all and (max-width: 1024px) {
     #our-services {
         padding-top: 60px;
     }
@@ -140,5 +140,9 @@
         background: #FFFFFF;
         transition: all 0.1s ease;
         margin-bottom: 7px;
+    }
+    .service-txt {
+        font-size: 10px;
+        line-height: 18px;
     }
 }

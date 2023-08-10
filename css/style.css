@@ -12506,6 +12506,7 @@
 	}
 	
 	.service_box {
+		height: 80%;
 		margin: 20px 0;
 		padding: 40px 20px;
 		text-align: center;
@@ -12581,4 +12582,10 @@
 	
 	#our-services{
 		background-image: url("../images/solar-img.jpg");
+	}
+	@media (max-width:540px){
+		.project-section-two .title-column .inner-column {
+			position: relative;
+			margin-top: 50px;
+		}
 	}
