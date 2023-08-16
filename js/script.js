@@ -1,4 +1,30 @@
 
+/*shop*/
+var toggleBtn = document.querySelector('.sidebar-toggle');
+var sidebar = document.querySelector('.sidebar');
+
+toggleBtn.addEventListener('click', function() {
+  toggleBtn.classList.toggle('is-closed');
+  sidebar.classList.toggle('is-closed');
+})
+/*searh-bar*/
+$("#searchInput").focus(function () {
+  
+	$("#searchInput").css({
+	  "display": "inline",
+	  "width": "40%",
+	  "border": "1px solid #40585d",
+	  "opacity": "1",
+	  "padding": "8px 20px 8px 20px",
+	  "background-image": "none",
+	  "box-shadow": "0 0 1px black"
+	});
+	$("#submitsearch").css("display", "inline");
+   
+	$("#searchInput").prop("placeholder", "");
+  });
+/*search-bar-end*/
+/*shop end*/
 (function($) {
 	
 	"use strict";
