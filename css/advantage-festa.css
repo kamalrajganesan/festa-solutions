@@ -1,0 +1,152 @@
+/*start global */
+
+
+
+.heading h1:after {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 2px;
+    background: #BABABA;
+    margin-top: 4px;
+    
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.hidden {
+    visibility: hidden !important;
+}
+
+/* end global */
+
+/* start of our services section */
+
+#our-services {
+    background: #f6f6f6;
+    min-height: 85vh;
+    padding-top: 12vh;
+}
+
+/* OUR SEERVICES LEFT SIDE */
+
+#our-services .desc {
+    width: 30%;
+    float: left;
+}
+
+#our-services .desc .heading h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    margin-bottom: 30px;
+}
+
+#our-services .desc .text {
+    color: #BABABA;
+}
+
+/* OUR SERVICES RIGHT SIDE */
+
+#our-services .services {
+    width: 70%;
+    float: left;
+}
+
+#our-services .services .column {
+    float: left;
+    margin-right: 60px;
+    margin-left: 20px;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+}
+
+#our-services .services .column .service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 170px;
+    background: #FFFFFF;
+    transition: all 0.1s ease;
+    margin-bottom: 7px;
+}
+
+#our-services .services .column .service:hover {
+    background: #dcf3ff;
+    color: #fff;
+}
+
+#our-services .services .column .service:hover .adv-icon {
+    color: #fff;
+}
+
+#our-services .services .column .service .adv-desc {
+    transform: rotate(-45deg);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+#our-services .services .column .service .adv-desc .adv-icon  {
+    font-size: 23px;
+    margin-bottom: 12px;
+    color: #f57469;
+}
+
+.service-txt{
+    font-size: 14px;
+    line-height: 25px;
+}
+
+/* end of our services section */
+
+/* media query */
+
+@media all and (max-width: 1024px) {
+    #our-services {
+        padding-top: 60px;
+    }
+    
+    #our-services .desc {
+        width: 100%;
+        float: none;
+        margin-bottom: 30px;
+    }
+    
+    #our-services .services {
+        width: 100%;
+    }
+    
+    #our-services .services .column {
+        transform: rotate(0deg);
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    #our-services .services .column .service .adv-desc {
+        transform: rotate(0deg);
+    }
+    #our-services .services .column .service {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 120px;
+        height: 120px;
+        background: #FFFFFF;
+        transition: all 0.1s ease;
+        margin-bottom: 7px;
+    }
+    .service-txt {
+        font-size: 10px;
+        line-height: 18px;
+    }
+}
+
+
+  
+  

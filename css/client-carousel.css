@@ -22,7 +22,7 @@
 .business-container {
 	max-width: 1300px;
 	margin: 0px auto 0px auto;
-	padding: 20px 40px;
+	padding: 0px 40px;
 }
 
 @media (min-width: 1200px) and (max-width: 1441px) {
@@ -45,9 +45,16 @@
 }
 
 .business-partners {
-	padding: 70px 40px;
+	padding: 104px 94px;
 	background-color: #87ceeb1c;
 }
+
+
+.about {
+	padding: 30px 100px 200px 100px;
+	background-color: #87ceeb1c;
+}
+
 
 .business-partners .skills-flex-container {
 	display: flex;
@@ -65,7 +72,7 @@
 .business-partners .skills-flex-container .business-box {
 	flex: 1 1 15%;
 	background: white;
-	border-radius: .5rem;
+	border-radius: 1.5rem;
 	/* box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 24px; */
 	padding: 25px;
 	text-align: center;
@@ -103,18 +110,18 @@
 
 @media (max-width: 1100px) {
 	.business-partners .skills-flex-container .business-box {
-		flex: 1 0 35%;
+		flex: 1 0 25%;
 	}
 }
 
 @media (max-width: 630px) {
 	.business-partners .skills-flex-container .business-box {
-		flex: 1 0 50%;
-		padding: 30px;
+		flex: 1 0 35%;
+		padding: 15px;
 	}
 
 	.business-partners .skills-flex-container .business-box .business-image img {
-		max-width: 120px;
+		max-width: 50px;
 	}
 }
 
