@@ -5,6 +5,7 @@
 <title>Industo Industry HTML-5 Template | Project's</title>
 <script src="https://kit.fontawesome.com/4d8bf74529.js" crossorigin="anonymous"></script>
 <!-- Stylesheets -->
+<link href="css/shop.css" rel="stylesheet">
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/fontawesome.css" rel="stylesheet">
@@ -227,47 +228,106 @@
 
 			<div class="row clearfix">
 				<div class="sidebar-side col-lg-3 col-md-12 col-sm-12">
-					<aside class="sidebar padding-left sticky-top">
+					<aside class=" product-filter sidebar padding-left sticky-top">
 					
-						<!-- Search -->
-						<div class="sidebar-widget search-box">
-							<form method="post" action="contact.html">
-								<div class="form-group">
-									<input type="search" name="search-field" value="" placeholder="Search Here ..." required="">
-									<button type="submit"><span class="icon fa fa-search"></span></button>
-								</div>
-							</form>
-						</div>
 						
-						<!-- Service Widget -->
-						<div class="sidebar-widget service-widget">
-							<div class="widget-content">
-								<div class="sidebar-title-two">
-									<h4>Categories</h4>
-								</div>
-								<ul class="service-list-two">
-									<li><a href="#">All <span>6</span></a></li>
-									<li><a href="#">Inverters <span>4</span></a></li>
-									<li><a href="#">Solar panels <span>2</span></a></li>
-								</ul>
-							</div>
-						</div>
-						
-						<!-- Archive Widget -->
-						<div class="sidebar-widget service-widget">
-							<div class="widget-content">
-								<div class="sidebar-title-two">
-									<h4>Tags</h4>
-								</div>
-								<ul class="service-list-two">
-									<li><a href="#">Battery <span></span></a></li>
-									<li><a href="#">Area <span></span></a></li>
-									<li><a href="#">Power consumption <span></span></a></li>
-									<li><a href="#">EB <span></span></a></li>
-								</ul>
-							</div>
-						</div>
-						
+    
+		
+        <div class="filter-section fixed-section">
+			<div class="overflow">
+				<button class="sidebar-toggle"><i class="fa fa-chevron-left"></i></button>
+			
+			<div class="wrapper">
+                <form class="search">
+                  <input type="text" class="searchText" placeholder="Find product">
+                  <input type="submit" class="searchButton" value="search" disabled ></input>
+                </form>
+            </div> 
+			<h6 class="shop-heading">DCR</h6>
+            <div class="boxes">
+                <input type="checkbox" id="box-12">
+                <label for="box-12">Mono PERC(535/540)<span class="spannum" style="float:right;top:0;">(2)</span></label>
+              
+                <input type="checkbox" id="box-13" checked>
+                <label for="box-13">Bifacial(535/540)<span class="spannum" style="float:right">(2)</span></label>
+              
+            </div>
+			<h6 class="shop-heading">Non-DCR</h6>
+            <div class="boxes">
+                <input type="checkbox" id="box-12">
+                <label for="box-12">Mono PERC(535/540)<span class="spannum" style="float:right;top:0;">(2)</span></label>
+              
+                <input type="checkbox" id="box-13" checked>
+                <label for="box-13">Bifacial(535/540)<span class="spannum" style="float:right">(2)</span></label>
+              
+            </div>
+			<h6 class="shop-heading">On grid Inverters</h6>
+            <div class="boxes">
+                <input type="checkbox" id="box-14">
+                <label for="box-14">Residential<span class="spannum" style="float:right">(2)</span></label>
+              
+                <input type="checkbox" id="box-15" checked>
+                <label for="box-15">Commercial<span class="spannum" style="float:right">(2)</span></label>
+
+				<input type="checkbox" id="box-16" checked>
+                <label for="box-16">Industrial<span class="spannum" style="float:right">(2)</span></label>
+              
+            </div>
+			<h6 class="shop-heading">Hybrid Inverters </h6>
+            <div class="boxes">
+                <input type="checkbox" id="box-17">
+                <label for="box-17">LV-Residential<span class="spannum" style="float:right">(2)</span></label>
+              
+                <input type="checkbox" id="box-18" checked>
+                <label for="box-18">Wall Mount<span class="spannum" style="float:right">(2)</span></label>
+
+				<input type="checkbox" id="box-19" checked>
+                <label for="box-19">HV-Commercial<span class="spannum" style="float:right">(2)</span></label>
+
+				<input type="checkbox" id="box-20" checked>
+                <label for="box-20">Wall Mount<span class="spannum" style="float:right">(2)</span></label>
+              
+            </div> 
+			<h6 class="shop-heading">Energy Storage Sysytem</h6>
+            <div class="boxes">
+                <input type="checkbox" id="box-5">
+                <label for="box-5">LV Rock Mount<span class="spannum" style="float:right">(2)</span></label>
+              
+                <input type="checkbox" id="box-6" checked>
+                <label for="box-6">LV Wall Mount<span class="spannum" style="float:right">(2)</span></label>
+                
+				<input type="checkbox" id="box-7" checked>
+                <label for="box-7">HR Rack Mount<span class="spannum" style="float:right">(2)</span></label>
+
+				<input type="checkbox" id="box-8" checked>
+                <label for="box-8">HV-  All in one Hybrid ESS<span class="spannum" style="float:right">(2)</span></label>
+
+				<input type="checkbox" id="box-9" checked>
+                <label for="box-9">Micro Grid System<span class="spannum" style="float:right">(2)</span></label> 
+
+            </div> 
+            <h6 class="shop-heading">Distribution Boxes</h6>
+            <div class="boxes">
+                <input type="checkbox" id="box-10">
+                <label for="box-10">On grid Distribution Boxes<span class="spannum" style="float:right">(2)</span></label>
+              
+                <input type="checkbox" id="box-11" checked>
+                <label for="box-11">Hybrid Distribution Boxes<span class="spannum" style="float:right">(2)</span></label>
+              
+            </div>  
+			<label class="labelfor">Calculate your Electricity consumption:</label>
+			<div class="search-product-shop">
+				<input  class="search-txt" type="text" name="" placeholder="calculate electricity">
+				<a class="search-btn" href="#" >
+				   <i class="fa fa-angle-double-right"></i>
+				</a>
+			</div>
+			<div class="vn-red">
+				<a href="#">DOWNLOAD CATALOGUE</a> 
+			</div>
+			
+		</div>     
+           </div>
 					</aside>
 				</div>
 				

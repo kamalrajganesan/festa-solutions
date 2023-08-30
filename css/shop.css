@@ -1,0 +1,340 @@
+
+ /* Industo Industry HTML Templedte */
+
+@import url('global.css');
+@import url('font-awesome.css');
+@import url('flaticon.css');
+@import url('animate.css');
+@import url('owl.css');
+@import url('slick.css');
+@import url('preloader.css');
+@import url('animation.css');
+@import url('jquery-ui.css');
+@import url('custom-animate.css');
+@import url('magnific-popup.css');
+@import url('odometer-theme-default.css');
+@import url('jquery.mCustomScrollbar.min.css');
+@import url('fav-icon.css');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/*** 
+
+====================================================================
+	Main Header style
+====================================================================
+
+***/
+
+/*Page styles*/
+.shop-container { height: 100%; }
+.product-filter{
+    width:100%;
+    display:flex;
+}
+.shop-heading{
+    color:#fbfcf8;
+    font-size:small;
+}
+.filter-section {
+  height: 100%;
+  align-items: center;
+  background: #000335;
+  padding:30px;
+  
+}
+.fixed-section{
+  overflow: auto;
+}
+
+.boxes {
+  margin: auto;
+  padding: 15px;
+}
+
+/*Checkboxes styles*/
+input[type="checkbox"] { display: none; }
+
+input[type="checkbox"] + label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 10px;
+  font: 13px/15px 'Open Sans', Arial, sans-serif;
+  color: #ddd;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+input[type="checkbox"] + label:last-child { margin-bottom: 0; }
+
+input[type="checkbox"] + label:before {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #6cc0e5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: .6;
+  -webkit-transition: all .12s, border-color .08s;
+  transition: all .12s, border-color .08s;
+}
+
+input[type="checkbox"]:checked + label:before {
+  width: 10px;
+  top: -5px;
+  left: 5px;
+  border-radius: 0;
+  opacity: 1;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.labelfor{
+  font: 13px/15px 'Open Sans', Arial, sans-serif;
+  color: #ddd;
+  font-weight:bold;
+  padding:4px 0px;
+}
+/*search-bar*/
+
+.wrapper {
+  display: flex;
+  padding-bottom:15px;
+}
+
+input {
+  padding: 0px;
+  font-size:18px; 
+  height: 100%;
+  background: white; 
+  border: none;
+}
+.search{
+    height:40px;
+}
+.searchText {
+  text-indent: 5px;
+  border-radius: 5px 0 0 5px;
+  border: 2px solid #1AC8ED;
+  border-right: none;
+  height: 100%;
+}
+
+.searchButton {
+  color: white;
+  background-color:#1AC8ED;
+  padding: 0 10px;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+  width:66px;
+}
+
+/*shop sidebar*/
+
+
+
+
+.sidebar-toggle {
+  position: fixed;
+  z-index: 1;
+  outline: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15em  !important;
+  left:292px;
+  background:linear-gradient(-170deg,
+  rgba(208, 218, 222, 1) 0%,
+  rgba(161, 174, 179, 1) 100%
+);
+  /* transform: rotate(45deg); */
+  cursor: pointer;
+  transition: .5s;
+  
+  &.is-closed {
+    transform: translateX(0.5em) rotate(180deg);  
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    color: white;
+  }
+}
+.sidebar {
+  transition: .7s;
+ 
+  
+  &.is-closed {
+    transform: translateX(-23em);
+  }
+}
+
+.sidebar-toggle i{
+  font-size:20px !important;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  color:white;
+}
+/*shop sidebar end*/
+
+@supports ((position:-webkit-sticky) or (position:sticky)){
+.sticky-top {
+  top:85px !important;
+}
+}
+
+@media(min-width:320px){
+  @supports ((position: -webkit-sticky) or (position:sticky)) {
+    .sticky-top {
+        top:0;
+        position: fixed !important;
+        width:92%;
+    }
+  }
+  .sidebar-toggle {
+    left:277px;
+
+    &.is-closed {
+      transform: translateX(2em) rotate(180deg);  
+    }
+  }
+  .vn-red a{
+    padding:6px 20px 6px 80px;
+  }
+  .search-btn {
+    top:-28px !important;
+  }
+}
+@media(min-width:700px){
+  @supports ((position: -webkit-sticky) or (position:sticky)) {
+    .sticky-top {
+        top:0;
+        position: fixed !important;
+        width:40%;
+        height:auto;
+    }
+  }
+  .sidebar-toggle {
+    left:287px;
+
+    &.is-closed {
+      transform: translateX(1em) rotate(180deg);  
+    }
+  }
+  .vn-red a{
+    padding:5px 20px 5px 80px;
+  }
+  .search-btn {
+    top:-9.5px !important;
+  }
+}
+@media(min-width:1048px){
+  @supports ((position: -webkit-sticky) or (position:sticky)) {
+    .sticky-top {
+      left:0;
+      position: fixed !important;
+      width:40%;
+      height:auto;
+    }
+  }
+  .sidebar-toggle{
+    display:none;
+  }
+  .sidebar-side{
+    left:287px;
+
+    &.is-closed {
+      transform: translateX(1em) rotate(180deg);  
+    }
+  }
+  .vn-red a{
+    padding:15px 32px 15px 50px;
+  }
+  .filter-section {
+    width:63%;
+  }
+  .searchText{
+    width:193px;
+  }
+}
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);a:link{text-decoration:none}
+.vn-red a{
+  background-color:#1AC8ED;
+  display:inline-block;
+  position:relative;
+  color:#fff;
+  transition:all 0.4s ease;
+  border-radius:3px;
+  margin:15px 0px;
+  
+}
+.vn-red a:before{
+  content:"\f019";
+  font-family:fontAwesome;
+  position:absolute;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  font-size:26px;
+  border-radius:0 20px 0 0;
+  color:white;
+  background-color:black;
+  opacity:0.3;
+  padding:6px;
+  top:0;
+  left:0;
+  text-align:center;
+}
+
+
+/*search-box*/
+.search-product-shop{
+  /* position:absolute;
+  transform: translate(-50% , -50%); */
+  background:black ;
+  height: 40px;
+ 
+ padding:10px;
+ border:1px solid #1AC8ED;
+}
+
+.search-btn{
+  color: #fff;
+  float: right;
+  width: 65px;
+  height: 38px;
+  font-size:2rem;
+  background:#1AC8ED ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -10px;
+  right: -10px;
+}
+
+.search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color:white ;
+  font-size: 16px;
+  transition: ease-in 0.4s;
+  line-height: 40px;
+  width: 150px;
+}
+
+.fixed-section{
+  max-height: 100vh;
+		overflow: scroll;
+		padding-top: 50px;
+    padding-bottom:150px;
+}
