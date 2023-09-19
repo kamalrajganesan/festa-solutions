@@ -54,7 +54,7 @@
 
 	.header-top .top-left .text:before{
 		position:absolute;
-		content:'\f017';
+		/* content:'\f017'; */
 		left:0px;
 		top:0px;
 		color:var(--color-three);
