@@ -53,12 +53,13 @@
 
 
 	.header-top .top-left .text:before{
+		font-family: 'Font Awesome 6 free';
 		position:absolute;
 		/* content:'\f017'; */
 		left:0px;
 		top:0px;
 		color:var(--color-three);
-		font-family: 'FontAwesome';
+		
 	}
 
 	.header-top .top-left .text a{
